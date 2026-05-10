@@ -1,1186 +1,1326 @@
-Abaixo está unificado, sem [ e ], com vírgula no último item, e com os nomes corrigidos para aceitar termos separados, como “Reino de Israel”, “Cidade-Estado”, “Guerra Médicas”, “Estrada Real”, etc.
-
-{
-  "palavra": "Mesopotâmia",
-  "dica": "Região histórica localizada entre os rios Tigre e Eufrates, considerada uma das primeiras áreas de formação de cidades e Estados."
-},
-{
-  "palavra": "Tigre",
-  "dica": "Um dos principais rios da Mesopotâmia, importante para a agricultura, o transporte e a formação das primeiras cidades."
-},
-{
-  "palavra": "Eufrates",
-  "dica": "Rio fundamental para a vida na Mesopotâmia, usado para irrigação e desenvolvimento agrícola."
-},
-{
-  "palavra": "Sumérios",
-  "dica": "Povo da Baixa Mesopotâmia associado à formação das primeiras cidades-Estado, como Ur, Uruk e Lagash."
-},
-{
-  "palavra": "Acádios",
-  "dica": "Povo semita que formou um dos primeiros impérios mesopotâmicos, liderado por Sargão da Acádia."
-},
-{
-  "palavra": "Babilônios",
-  "dica": "Povo mesopotâmico conhecido pelo Primeiro Império Babilônico e pelo Código de Hamurábi."
-},
-{
-  "palavra": "Assírios",
-  "dica": "Povo mesopotâmico marcado pela força militar, expansão territorial e construção de um grande império."
-},
-{
-  "palavra": "Caldeus",
-  "dica": "Povo ligado ao Segundo Império Babilônico, período em que Nabucodonosor II governou a Babilônia."
-},
-{
-  "palavra": "Uruk",
-  "dica": "Uma das cidades mais antigas da Mesopotâmia, associada ao desenvolvimento urbano e à figura lendária de Gilgamesh."
-},
-{
-  "palavra": "Zigurate",
-  "dica": "Templo em formato de torre construído nas cidades mesopotâmicas, ligado à religião e ao poder político."
-},
-{
-  "palavra": "Cuneiforme",
-  "dica": "Sistema de escrita criado pelos sumérios, feito com sinais em forma de cunha gravados em placas de argila."
-},
-{
-  "palavra": "Hamurábi",
-  "dica": "Rei babilônico conhecido por organizar um dos códigos de leis mais famosos da Antiguidade."
-},
-{
-  "palavra": "Politeísmo",
-  "dica": "Crença em vários deuses, característica importante da religião mesopotâmica."
-},
-{
-  "palavra": "Irrigação",
-  "dica": "Técnica usada para controlar e distribuir a água dos rios, fundamental para a agricultura mesopotâmica."
-},
-{
-  "palavra": "Gilgamesh",
-  "dica": "Personagem ligado a uma das obras literárias mais antigas conhecidas, a Epopeia de Gilgamesh."
-},
-{
-  "palavra": "Argila",
-  "dica": "Material usado pelos mesopotâmicos para produzir placas onde eram registrados textos em escrita cuneiforme."
-},
-{
-  "palavra": "Ur",
-  "dica": "Importante cidade suméria da Mesopotâmia, conhecida por seu desenvolvimento urbano, religioso e comercial."
-},
-{
-  "palavra": "Lagash",
-  "dica": "Cidade-Estado suméria que teve destaque político e econômico na Baixa Mesopotâmia."
-},
-{
-  "palavra": "Nipur",
-  "dica": "Cidade mesopotâmica de grande importância religiosa, associada ao culto do deus Enlil."
-},
-{
-  "palavra": "Enlil",
-  "dica": "Deus mesopotâmico ligado ao vento, às tempestades e à autoridade divina sobre reis e cidades."
-},
-{
-  "palavra": "Marduk",
-  "dica": "Principal deus da Babilônia, especialmente valorizado durante o período de expansão do poder babilônico."
-},
-{
-  "palavra": "Ishtar",
-  "dica": "Deusa mesopotâmica associada ao amor, à fertilidade, à guerra e ao poder."
-},
-{
-  "palavra": "Sargão",
-  "dica": "Governante acadiano que formou um dos primeiros grandes impérios da história mesopotâmica."
-},
-{
-  "palavra": "Nabucodonosor",
-  "dica": "Rei caldeu da Babilônia, conhecido por suas conquistas militares e grandes construções urbanas."
-},
-{
-  "palavra": "Nínive",
-  "dica": "Importante cidade assíria que se tornou capital do Império Assírio em seu período de grande expansão."
-},
-{
-  "palavra": "Assurbanipal",
-  "dica": "Rei assírio conhecido por formar uma grande biblioteca em Nínive, reunindo textos em escrita cuneiforme."
-},
-{
-  "palavra": "Escribas",
-  "dica": "Profissionais responsáveis por registrar informações, leis, contas, contratos e textos religiosos na Mesopotâmia."
-},
-{
-  "palavra": "Cidade-Estado",
-  "dica": "Forma de organização política em que uma cidade tinha governo próprio e controlava o território ao seu redor."
-},
-{
-  "palavra": "Teocracia",
-  "dica": "Sistema político em que o poder do governante era justificado pela religião e pela vontade dos deuses."
-},
-{
-  "palavra": "Excedente",
-  "dica": "Produção agrícola que sobrava após o consumo imediato, permitindo comércio, especialização do trabalho e crescimento urbano."
-},
-{
-  "palavra": "Comércio",
-  "dica": "Atividade importante na Mesopotâmia, favorecida pelos rios e pela necessidade de trocar produtos entre diferentes regiões."
-},
-{
-  "palavra": "Astronomia",
-  "dica": "Área de conhecimento desenvolvida pelos mesopotâmicos a partir da observação dos astros e da organização do calendário."
-},
-{
-  "palavra": "Egito",
-  "dica": "Civilização antiga formada no nordeste da África, desenvolvida principalmente às margens do rio Nilo."
-},
-{
-  "palavra": "Nilo",
-  "dica": "Rio fundamental para a agricultura, o transporte e a sobrevivência da civilização egípcia antiga."
-},
-{
-  "palavra": "Faraó",
-  "dica": "Título dado ao governante do Egito Antigo, considerado uma autoridade política, religiosa e divina."
-},
-{
-  "palavra": "Pirâmides",
-  "dica": "Grandes construções funerárias feitas para abrigar os corpos de faraós e demonstrar poder religioso e político."
-},
-{
-  "palavra": "Gizé",
-  "dica": "Região do Egito conhecida pelas famosas pirâmides de Quéops, Quéfren e Miquerinos."
-},
-{
-  "palavra": "Quéops",
-  "dica": "Faraó associado à maior das pirâmides de Gizé, uma das construções mais famosas do mundo antigo."
-},
-{
-  "palavra": "Quéfren",
-  "dica": "Faraó ligado a uma das grandes pirâmides de Gizé e frequentemente associado à Grande Esfinge."
-},
-{
-  "palavra": "Miquerinos",
-  "dica": "Faraó associado à menor das três principais pirâmides de Gizé."
-},
-{
-  "palavra": "Esfinge",
-  "dica": "Monumento com corpo de leão e cabeça humana, associado à proteção simbólica e ao poder real egípcio."
-},
-{
-  "palavra": "Mumificação",
-  "dica": "Técnica usada pelos egípcios para preservar corpos, ligada à crença na vida após a morte."
-},
-{
-  "palavra": "Múmia",
-  "dica": "Corpo preservado por técnicas funerárias, preparado para a continuidade da existência no além."
-},
-{
-  "palavra": "Sarcófago",
-  "dica": "Objeto funerário semelhante a um caixão, usado para proteger o corpo mumificado."
-},
-{
-  "palavra": "Hieróglifos",
-  "dica": "Sistema de escrita egípcio formado por sinais e desenhos usados em monumentos, templos e registros religiosos."
-},
-{
-  "palavra": "Papiro",
-  "dica": "Material produzido a partir de uma planta do Nilo, usado como suporte para a escrita no Egito Antigo."
-},
-{
-  "palavra": "Rá",
-  "dica": "Deus solar egípcio, associado ao Sol, à criação e à força vital."
-},
-{
-  "palavra": "Osíris",
-  "dica": "Deus egípcio ligado à morte, à ressurreição e ao julgamento dos mortos."
-},
-{
-  "palavra": "Ísis",
-  "dica": "Deusa egípcia associada à maternidade, à magia, à proteção e à reconstrução da vida."
-},
-{
-  "palavra": "Hórus",
-  "dica": "Deus egípcio geralmente representado com cabeça de falcão, associado à realeza e ao poder do faraó."
-},
-{
-  "palavra": "Anúbis",
-  "dica": "Deus egípcio ligado à mumificação, aos rituais funerários e à proteção dos mortos."
-},
-{
-  "palavra": "Maat",
-  "dica": "Conceito egípcio relacionado à ordem, justiça, equilíbrio e harmonia do universo."
-},
-{
-  "palavra": "Templos",
-  "dica": "Construções religiosas dedicadas aos deuses, usadas em rituais e ligadas ao poder dos sacerdotes."
-},
-{
-  "palavra": "Sacerdotes",
-  "dica": "Grupo responsável pelos cultos religiosos, pelos rituais nos templos e pela relação simbólica com os deuses."
-},
-{
-  "palavra": "Camponeses",
-  "dica": "Maioria da população egípcia, responsável pelo trabalho agrícola nas terras próximas ao rio Nilo."
-},
-{
-  "palavra": "Cheias",
-  "dica": "Inundações periódicas do rio Nilo que fertilizavam as terras e favoreciam o plantio."
-},
-{
-  "palavra": "Nomos",
-  "dica": "Divisões administrativas do Egito Antigo, governadas por autoridades locais chamadas nomarcas."
-},
-{
-  "palavra": "Nomarcas",
-  "dica": "Governantes locais responsáveis pela administração dos nomos no Egito Antigo."
-},
-{
-  "palavra": "Cleópatra",
-  "dica": "Rainha do período final do Egito antigo, ligada à dinastia ptolomaica e às relações com Roma."
-},
-{
-  "palavra": "Tutancâmon",
-  "dica": "Faraó jovem cuja tumba quase intacta se tornou uma das descobertas arqueológicas mais famosas do Egito."
-},
-{
-  "palavra": "Fenícios",
-  "dica": "Povo antigo do litoral oriental do Mediterrâneo, conhecido pelo comércio marítimo e pela difusão de um alfabeto."
-},
-{
-  "palavra": "Tiro",
-  "dica": "Importante cidade fenícia, famosa por seu comércio marítimo e pela produção da púrpura."
-},
-{
-  "palavra": "Sídon",
-  "dica": "Cidade fenícia relevante no comércio, na navegação e na produção artesanal."
-},
-{
-  "palavra": "Biblos",
-  "dica": "Cidade fenícia associada ao comércio de papiro e às trocas culturais no Mediterrâneo antigo."
-},
-{
-  "palavra": "Púrpura",
-  "dica": "Corante valioso produzido pelos fenícios a partir de moluscos, usado em tecidos de luxo."
-},
-{
-  "palavra": "Alfabeto",
-  "dica": "Sistema de escrita simplificado difundido pelos fenícios, com grande influência sobre alfabetos posteriores."
-},
-{
-  "palavra": "Elamitas",
-  "dica": "Povo antigo situado principalmente na região do atual sudoeste do Irã, com capital em Susã."
-},
-{
-  "palavra": "Susã",
-  "dica": "Importante cidade do Elão, depois incorporada ao Império Persa como centro administrativo."
-},
-{
-  "palavra": "Elão",
-  "dica": "Antiga região localizada a leste da Mesopotâmia, marcada pela presença dos elamitas."
-},
-{
-  "palavra": "Persas",
-  "dica": "Povo iraniano que formou um dos maiores impérios da Antiguidade, especialmente sob a dinastia aquemênida."
-},
-{
-  "palavra": "Aquemênidas",
-  "dica": "Dinastia persa fundada por Ciro, responsável pela expansão do grande Império Persa."
-},
-{
-  "palavra": "Ciro",
-  "dica": "Rei persa conhecido por fundar o Império Aquemênida e conquistar diversos povos do Oriente Antigo."
-},
-{
-  "palavra": "Dario",
-  "dica": "Rei persa que reorganizou o império em satrapias, fortaleceu estradas e aperfeiçoou a administração."
-},
-{
-  "palavra": "Sátrapas",
-  "dica": "Governadores das províncias do Império Persa, chamadas satrapias."
-},
-{
-  "palavra": "Satrapias",
-  "dica": "Províncias administrativas do Império Persa, criadas para facilitar o controle de um território muito extenso."
-},
-{
-  "palavra": "Zoroastrismo",
-  "dica": "Religião persa associada aos ensinamentos de Zaratustra e à oposição entre bem e mal."
-},
-{
-  "palavra": "Hititas",
-  "dica": "Povo antigo da Anatólia, conhecido pela força militar, pelo uso do ferro e por conflitos com egípcios e outros povos do Oriente Antigo."
-},
-{
-  "palavra": "Anatólia",
-  "dica": "Região da atual Turquia onde se desenvolveu a civilização hitita e outros povos antigos."
-},
-{
-  "palavra": "Hattusa",
-  "dica": "Capital do Império Hitita, importante centro político e militar da Anatólia antiga."
-},
-{
-  "palavra": "Hebreus",
-  "dica": "Povo semita do Oriente Antigo, cuja história está ligada à tradição bíblica, ao monoteísmo e aos reinos de Israel e Judá."
-},
-{
-  "palavra": "Monoteísmo",
-  "dica": "Crença em um único Deus, elemento central da religião hebraica."
-},
-{
-  "palavra": "Jerusalém",
-  "dica": "Cidade de grande importância política e religiosa para os hebreus, ligada ao templo e à monarquia."
-},
-{
-  "palavra": "Israelitas",
-  "dica": "Grupo ligado aos antigos reinos de Israel e Judá, associados à tradição hebraica."
-},
-{
-  "palavra": "Arameus",
-  "dica": "Povo semita do Oriente Antigo, conhecido pela difusão do idioma aramaico."
-},
-{
-  "palavra": "Aramaico",
-  "dica": "Idioma muito usado no Oriente Antigo, especialmente no comércio, na administração e nas comunicações imperiais."
-},
-{
-  "palavra": "Medos",
-  "dica": "Povo iraniano antigo que viveu na região da Média e teve papel importante antes da ascensão dos persas."
-},
-{
-  "palavra": "Frígios",
-  "dica": "Povo da Anatólia antiga, associado ao lendário rei Midas."
-},
-{
-  "palavra": "Lídios",
-  "dica": "Povo antigo da Anatólia ocidental, conhecido pelo comércio e pelo uso de moedas metálicas."
-},
-{
-  "palavra": "Sardes",
-  "dica": "Capital da Lídia, importante centro comercial e político da Anatólia antiga."
-},
-{
-  "palavra": "Ugarit",
-  "dica": "Cidade antiga do Levante conhecida por seus textos cuneiformes e por sua importância comercial."
-},
-{
-  "palavra": "Levante",
-  "dica": "Região do Mediterrâneo oriental onde viveram povos como fenícios, hebreus, arameus e cananeus."
-},
-{
-  "palavra": "Cambises",
-  "dica": "Rei persa, filho de Ciro, responsável pela conquista do Egito no século VI a.C."
-},
-{
-  "palavra": "Xerxes",
-  "dica": "Rei persa que liderou uma grande campanha militar contra os gregos durante as Guerras Médicas."
-},
-{
-  "palavra": "Sasânidas",
-  "dica": "Dinastia persa posterior aos partas, marcada por conflitos com o Império Romano e Bizantino."
-},
-{
-  "palavra": "Partas",
-  "dica": "Povo iraniano que formou um império entre os períodos aquemênida e sassânida, conhecido por sua cavalaria."
-},
-{
-  "palavra": "Persépolis",
-  "dica": "Cidade cerimonial do Império Persa Aquemênida, construída principalmente durante o governo de Dario I."
-},
-{
-  "palavra": "Pasárgada",
-  "dica": "Antiga capital persa associada a Ciro, onde se encontra seu famoso túmulo."
-},
-{
-  "palavra": "Ecbátana",
-  "dica": "Cidade antiga ligada aos medos e depois usada pelos persas como centro político e administrativo."
-},
-{
-  "palavra": "Zaratustra",
-  "dica": "Profeta associado ao zoroastrismo, tradição religiosa importante na antiga cultura persa."
-},
-{
-  "palavra": "Ahura Mazda",
-  "dica": "Divindade central do zoroastrismo, associada à luz, à verdade e ao bem."
-},
-{
-  "palavra": "Angra Mainyu",
-  "dica": "Espírito destrutivo do zoroastrismo, associado ao mal, à mentira e ao caos."
-},
-{
-  "palavra": "Imortal",
-  "dica": "Soldado da elite militar persa, pertencente ao famoso corpo de infantaria conhecido como Os Dez Mil Imortais."
-},
-{
-  "palavra": "Dárico",
-  "dica": "Moeda de ouro persa usada no Império Aquemênida, associada à padronização econômica promovida por Dario."
-},
-{
-  "palavra": "Estrada Real",
-  "dica": "Rede de caminhos do Império Persa que facilitava comunicações, comércio e deslocamento militar."
-},
-{
-  "palavra": "Correios",
-  "dica": "Sistema de mensageiros persas usado para transmitir ordens e informações por longas distâncias."
-},
-{
-  "palavra": "Cilindro",
-  "dica": "Objeto associado a Ciro, frequentemente lembrado por registrar sua conquista da Babilônia e sua política de governo."
-},
-{
-  "palavra": "Babilônia",
-  "dica": "Cidade conquistada por Ciro em 539 a.C., tornando-se parte do Império Persa."
-},
-{
-  "palavra": "Irã",
-  "dica": "Região histórica ligada aos povos persas e a outras populações iranianas da Antiguidade."
-},
-{
-  "palavra": "Árias",
-  "dica": "Termo usado historicamente para designar grupos indo-iranianos ligados à formação cultural de povos como medos e persas."
-},
-{
-  "palavra": "Guerras Médicas",
-  "dica": "Conflitos entre persas e cidades gregas no século V a.C., envolvendo batalhas como Maratona, Termópilas e Salamina."
-},
-{
-  "palavra": "Maratona",
-  "dica": "Batalha de 490 a.C. em que os atenienses derrotaram uma força persa enviada por Dario I."
-},
-{
-  "palavra": "Termópilas",
-  "dica": "Batalha de 480 a.C. em que uma aliança grega tentou conter o avanço persa liderado por Xerxes."
-},
-{
-  "palavra": "Salamina",
-  "dica": "Batalha naval de 480 a.C. em que os gregos derrotaram a frota persa durante a invasão de Xerxes."
-},
-{
-  "palavra": "Abraão",
-  "dica": "Patriarca associado à origem dos hebreus e à aliança com Deus segundo a tradição bíblica."
-},
-{
-  "palavra": "Isac",
-  "dica": "Filho de Abraão, considerado um dos patriarcas da tradição hebraica."
-},
-{
-  "palavra": "Jacó",
-  "dica": "Patriarca também chamado de Israel, associado à origem das doze tribos israelitas."
-},
-{
-  "palavra": "Israel",
-  "dica": "Nome associado tanto ao patriarca Jacó quanto ao antigo reino hebraico formado no norte da Palestina."
-},
-{
-  "palavra": "Doze Tribos",
-  "dica": "Grupos descendentes dos filhos de Jacó, segundo a tradição bíblica, que formariam a base do povo israelita."
-},
-{
-  "palavra": "Canaã",
-  "dica": "Região do Oriente Antigo associada à fixação dos hebreus e chamada na tradição bíblica de Terra Prometida."
-},
-{
-  "palavra": "Palestina",
-  "dica": "Região histórica do Levante onde se desenvolveram comunidades hebraicas e outros povos antigos."
-},
-{
-  "palavra": "Iavé",
-  "dica": "Nome usado para se referir ao Deus dos hebreus na tradição bíblica."
-},
-{
-  "palavra": "Aliança",
-  "dica": "Ideia religiosa de compromisso entre Deus e o povo hebreu, muito importante na tradição bíblica."
-},
-{
-  "palavra": "Moisés",
-  "dica": "Líder hebreu associado à saída do Egito, ao Êxodo e ao recebimento das leis divinas."
-},
-{
-  "palavra": "Êxodo",
-  "dica": "Narrativa da saída dos hebreus do Egito, conduzidos por Moisés segundo a tradição bíblica."
-},
-{
-  "palavra": "Sinai",
-  "dica": "Monte associado ao recebimento das Tábuas da Lei por Moisés."
-},
-{
-  "palavra": "Decálogo",
-  "dica": "Conjunto dos Dez Mandamentos, considerado base moral e religiosa da tradição hebraica."
-},
-{
-  "palavra": "Torá",
-  "dica": "Conjunto dos cinco primeiros livros da Bíblia hebraica, central para a religião judaica."
-},
-{
-  "palavra": "Juízes",
-  "dica": "Líderes militares e religiosos que teriam conduzido os hebreus antes da formação da monarquia."
-},
-{
-  "palavra": "Samuel",
-  "dica": "Profeta e juiz ligado à transição entre o período dos juízes e a monarquia hebraica."
-},
-{
-  "palavra": "Saul",
-  "dica": "Tradicionalmente considerado o primeiro rei dos hebreus."
-},
-{
-  "palavra": "Davi",
-  "dica": "Rei hebreu associado à unificação das tribos e à transformação de Jerusalém em centro político."
-},
-{
-  "palavra": "Salomão",
-  "dica": "Rei hebreu associado à construção do Primeiro Templo de Jerusalém e a um período de prosperidade."
-},
-{
-  "palavra": "Templo",
-  "dica": "Centro religioso de Jerusalém, associado ao culto hebraico e à presença simbólica de Deus."
-},
-{
-  "palavra": "Levitas",
-  "dica": "Grupo ligado às funções religiosas e ao serviço no templo na tradição hebraica."
-},
-{
-  "palavra": "Profetas",
-  "dica": "Figuras religiosas que denunciavam injustiças, criticavam governantes e anunciavam mensagens atribuídas a Deus."
-},
-{
-  "palavra": "Isaías",
-  "dica": "Profeta hebreu associado a mensagens de crítica social, esperança e fidelidade religiosa."
-},
-{
-  "palavra": "Jeremias",
-  "dica": "Profeta hebreu ligado às advertências sobre a queda de Jerusalém e o exílio babilônico."
-},
-{
-  "palavra": "Reino de Israel",
-  "dica": "Reino hebraico do norte, formado após a divisão política ocorrida depois do reinado de Salomão."
-},
-{
-  "palavra": "Reino de Judá",
-  "dica": "Reino hebraico do sul, com capital em Jerusalém, formado após a divisão da monarquia."
-},
-{
-  "palavra": "Exílio",
-  "dica": "Período em que parte dos hebreus foi deportada para a Babilônia após a conquista de Jerusalém."
-},
-{
-  "palavra": "Diáspora",
-  "dica": "Dispersão dos judeus por diferentes regiões, especialmente após conquistas e dominações estrangeiras."
-},
-{
-  "palavra": "Grécia",
-  "dica": "Civilização antiga formada por diferentes cidades-Estado, com grande influência na política, filosofia, arte, teatro e ciência ocidental."
-},
-{
-  "palavra": "Pólis",
-  "dica": "Cidade-Estado grega, com governo próprio, leis, território e identidade política independente."
-},
-{
-  "palavra": "Atenas",
-  "dica": "Cidade-Estado grega conhecida pelo desenvolvimento da democracia, da filosofia, do teatro e da vida cultural."
-},
-{
-  "palavra": "Esparta",
-  "dica": "Cidade-Estado grega marcada pela organização militar, disciplina rígida e valorização da guerra."
-},
-{
-  "palavra": "Acrópole",
-  "dica": "Parte alta da cidade grega, geralmente usada para templos, defesa e edifícios religiosos importantes."
-},
-{
-  "palavra": "Ágora",
-  "dica": "Praça pública das cidades gregas, usada para comércio, encontros políticos e debates entre cidadãos."
-},
-{
-  "palavra": "Democracia",
-  "dica": "Forma de governo desenvolvida em Atenas, na qual os cidadãos participavam diretamente das decisões políticas."
-},
-{
-  "palavra": "Eclésia",
-  "dica": "Assembleia dos cidadãos em Atenas, responsável por votar leis, decisões políticas e assuntos da cidade."
-},
-{
-  "palavra": "Bulé",
-  "dica": "Conselho ateniense que preparava assuntos a serem discutidos pela assembleia dos cidadãos."
-},
-{
-  "palavra": "Ostracismo",
-  "dica": "Prática política ateniense que permitia afastar temporariamente cidadãos considerados perigosos para a cidade."
-},
-{
-  "palavra": "Péricles",
-  "dica": "Líder ateniense associado ao auge da democracia, das artes e das construções públicas em Atenas."
-},
-{
-  "palavra": "Partenon",
-  "dica": "Templo construído na Acrópole de Atenas, dedicado à deusa Atena."
-},
-{
-  "palavra": "Atena",
-  "dica": "Deusa grega da sabedoria, da estratégia e protetora da cidade de Atenas."
-},
-{
-  "palavra": "Zeus",
-  "dica": "Principal deus da mitologia grega, associado ao céu, aos raios e à autoridade sobre os demais deuses."
-},
-{
-  "palavra": "Hera",
-  "dica": "Deusa grega associada ao casamento, à família e considerada esposa de Zeus."
-},
-{
-  "palavra": "Apolo",
-  "dica": "Deus grego ligado à luz, à música, à poesia, à profecia e à harmonia."
-},
-{
-  "palavra": "Ártemis",
-  "dica": "Deusa grega associada à caça, à natureza selvagem e à proteção das jovens."
-},
-{
-  "palavra": "Afrodite",
-  "dica": "Deusa grega ligada ao amor, à beleza e ao desejo."
-},
-{
-  "palavra": "Ares",
-  "dica": "Deus grego associado à guerra violenta, ao combate e ao conflito."
-},
-{
-  "palavra": "Poseidon",
-  "dica": "Deus grego dos mares, dos terremotos e dos cavalos."
-},
-{
-  "palavra": "Hades",
-  "dica": "Deus grego do mundo dos mortos e também nome do próprio reino subterrâneo."
-},
-{
-  "palavra": "Olimpo",
-  "dica": "Monte considerado morada dos principais deuses da mitologia grega."
-},
-{
-  "palavra": "Mitologia",
-  "dica": "Conjunto de narrativas sobre deuses, heróis e explicações simbólicas do mundo na cultura grega."
-},
-{
-  "palavra": "Ilíada",
-  "dica": "Poema épico atribuído a Homero, centrado em episódios da Guerra de Troia."
-},
-{
-  "palavra": "Odisseia",
-  "dica": "Poema épico atribuído a Homero, que narra a longa viagem de retorno de Ulisses para Ítaca."
-},
-{
-  "palavra": "Homero",
-  "dica": "Poeta tradicionalmente associado à autoria da Ilíada e da Odisseia."
-},
-{
-  "palavra": "Troia",
-  "dica": "Cidade lendária ligada à guerra narrada em tradições épicas gregas."
-},
-{
-  "palavra": "Ulisses",
-  "dica": "Herói grego da Odisseia, conhecido por sua inteligência e por sua longa viagem de retorno para casa."
-},
-{
-  "palavra": "Aquiles",
-  "dica": "Herói grego da Ilíada, famoso por sua força guerreira e por sua vulnerabilidade simbólica no calcanhar."
-},
-{
-  "palavra": "Helenismo",
-  "dica": "Período de difusão da cultura grega pelo Oriente após as conquistas de Alexandre, o Grande."
-},
-{
-  "palavra": "Alexandre",
-  "dica": "Rei da Macedônia que conquistou vastos territórios e espalhou elementos da cultura grega pelo Oriente."
-},
-{
-  "palavra": "Macedônia",
-  "dica": "Região ao norte da Grécia associada a Filipe II e Alexandre, o Grande."
-},
-{
-  "palavra": "Roma",
-  "dica": "Civilização antiga surgida na Península Itálica, que passou pela monarquia, república e império."
-},
-{
-  "palavra": "Latinos",
-  "dica": "Povo indo-europeu que habitava a região do Lácio e esteve ligado às origens da cidade de Roma."
-},
-{
-  "palavra": "Lácio",
-  "dica": "Região da Península Itálica onde Roma foi fundada."
-},
-{
-  "palavra": "Tibre",
-  "dica": "Rio às margens do qual a cidade de Roma se desenvolveu."
-},
-{
-  "palavra": "Etruscos",
-  "dica": "Povo da Península Itálica que influenciou Roma em aspectos políticos, religiosos, urbanos e culturais."
-},
-{
-  "palavra": "Monarquia",
-  "dica": "Primeira fase política de Roma, tradicionalmente marcada pelo governo de reis."
-},
-{
-  "palavra": "República",
-  "dica": "Fase da história romana em que o poder político passou a ser exercido por magistrados, Senado e assembleias."
-},
-{
-  "palavra": "Império",
-  "dica": "Fase romana marcada pela concentração do poder nas mãos do imperador e pela grande expansão territorial."
-},
-{
-  "palavra": "Senado",
-  "dica": "Instituição política romana formada principalmente por membros da elite, com grande influência nas decisões públicas."
-},
-{
-  "palavra": "Patrícios",
-  "dica": "Grupo aristocrático romano, formado pelas famílias mais tradicionais e privilegiadas."
-},
-{
-  "palavra": "Plebeus",
-  "dica": "Camada social romana formada por pequenos proprietários, comerciantes, artesãos e trabalhadores livres."
-},
-{
-  "palavra": "Escravos",
-  "dica": "Grupo submetido à perda de liberdade, muito utilizado no trabalho doméstico, agrícola, urbano e militar em Roma."
-},
-{
-  "palavra": "Clientes",
-  "dica": "Indivíduos dependentes da proteção de famílias patrícias, em uma relação de troca de favores e apoio político."
-},
-{
-  "palavra": "Tribunos",
-  "dica": "Representantes da plebe criados para defender os interesses dos plebeus contra abusos dos patrícios."
-},
-{
-  "palavra": "Cônsules",
-  "dica": "Magistrados mais importantes da República Romana, eleitos em dupla para comandar o governo e o exército."
-},
-{
-  "palavra": "Pretores",
-  "dica": "Magistrados romanos ligados principalmente à administração da justiça."
-},
-{
-  "palavra": "Censores",
-  "dica": "Magistrados responsáveis pelo censo, pela classificação social dos cidadãos e pela vigilância dos costumes."
-},
-{
-  "palavra": "Questores",
-  "dica": "Magistrados romanos ligados à administração financeira e ao tesouro público."
-},
-{
-  "palavra": "Edis",
-  "dica": "Magistrados responsáveis por obras públicas, abastecimento, mercados, jogos e manutenção urbana."
-},
-{
-  "palavra": "Ditador",
-  "dica": "Magistrado extraordinário nomeado em situações de crise, com poderes ampliados por tempo limitado."
-},
-{
-  "palavra": "Comícios",
-  "dica": "Assembleias populares romanas que participavam de eleições, votações de leis e decisões políticas."
-},
-{
-  "palavra": "Doze Tábuas",
-  "dica": "Primeira grande codificação escrita das leis romanas, resultado das lutas entre patrícios e plebeus."
-},
-{
-  "palavra": "Fórum",
-  "dica": "Centro político, religioso, comercial e administrativo da cidade de Roma."
-},
-{
-  "palavra": "Legiões",
-  "dica": "Unidades militares romanas responsáveis pela expansão, defesa e controle dos territórios conquistados."
-},
-{
-  "palavra": "Cartago",
-  "dica": "Cidade do norte da África que se tornou uma potência comercial e militar no Mediterrâneo antigo."
-},
-{
-  "palavra": "Guerras Púnicas",
-  "dica": "Conflitos entre Roma e Cartago que resultaram na expansão romana pelo Mediterrâneo."
-},
-{
-  "palavra": "Aníbal",
-  "dica": "General cartaginês famoso por atravessar os Alpes com elefantes durante a Segunda Guerra Púnica."
-},
-{
-  "palavra": "Mare Nostrum",
-  "dica": "Expressão latina usada pelos romanos para se referir ao Mediterrâneo, tratado como área de domínio romano."
-},
-{
-  "palavra": "Latifúndios",
-  "dica": "Grandes propriedades rurais romanas, muitas vezes trabalhadas por escravizados e ligadas à concentração de terras."
-},
-{
-  "palavra": "Gracos",
-  "dica": "Irmãos Tibério e Caio Graco, tribunos da plebe que tentaram realizar reformas agrárias em Roma."
-},
-{
-  "palavra": "Mário",
-  "dica": "General romano associado à profissionalização do exército e ao fortalecimento da lealdade dos soldados aos comandantes."
-},
-{
-  "palavra": "Sila",
-  "dica": "General romano que se tornou ditador e representou o fortalecimento da violência política na crise da República."
-},
-{
-  "palavra": "Kadesh",
-  "dica": "Batalha entre hititas e egípcios, famosa por envolver Ramsés II e o rei hitita Muwatalli II."
-},
-{
-  "palavra": "Ferro",
-  "dica": "Metal associado ao desenvolvimento militar dos hititas, embora seu uso tenha se espalhado gradualmente pelo Oriente Antigo."
-},
-{
-  "palavra": "Muwatalli",
-  "dica": "Rei hitita que enfrentou Ramsés II na Batalha de Kadesh."
-},
-{
-  "palavra": "Núbios",
-  "dica": "Povos africanos da região da Núbia, ao sul do Egito, com forte contato comercial, militar e cultural com os egípcios."
-},
-{
-  "palavra": "Cuxe",
-  "dica": "Reino africano da Núbia que teve grande importância política e chegou a governar o Egito."
-},
-{
-  "palavra": "Napata",
-  "dica": "Cidade importante do Reino de Cuxe, associada ao poder político e religioso dos núbios."
-},
-{
-  "palavra": "Meroé",
-  "dica": "Cidade cuxita conhecida pela produção de ferro, pelas pirâmides núbias e por sua importância comercial."
-},
-{
-  "palavra": "Faraós Negros",
-  "dica": "Expressão usada para se referir aos reis cuxitas que governaram o Egito durante a XXV dinastia."
-},
-{
-  "palavra": "Candace",
-  "dica": "Título usado para rainhas ou mulheres governantes no Reino de Cuxe, especialmente em Meroé."
-},
-{
-  "palavra": "Cananeus",
-  "dica": "Povos antigos do Levante que habitaram Canaã antes e durante a formação de outras sociedades da região."
-},
-{
-  "palavra": "Baal",
-  "dica": "Divindade cultuada por povos cananeus, associada à fertilidade, às tempestades e à força da natureza."
-},
-{
-  "palavra": "Astorete",
-  "dica": "Deusa cultuada em regiões cananeias e fenícias, associada à fertilidade, ao amor e à guerra."
-},
-{
-  "palavra": "Damasco",
-  "dica": "Cidade importante ligada aos arameus, situada em uma região estratégica do Levante."
-},
-{
-  "palavra": "Síria",
-  "dica": "Região histórica onde viveram diversos povos antigos, incluindo arameus, amoritas e hurritas."
-},
-{
-  "palavra": "Amoritas",
-  "dica": "Povo semita do Oriente Antigo que teve presença importante na Mesopotâmia e em regiões da Síria."
-},
-{
-  "palavra": "Mari",
-  "dica": "Cidade antiga do Eufrates ligada aos amoritas e conhecida por arquivos administrativos e diplomáticos."
-},
-{
-  "palavra": "Hurritas",
-  "dica": "Povo antigo do norte da Mesopotâmia e da Síria, com influência cultural e política no Oriente Antigo."
-},
-{
-  "palavra": "Mitani",
-  "dica": "Reino ligado aos hurritas, importante no equilíbrio político entre Egito, hititas e povos da Mesopotâmia."
-},
-{
-  "palavra": "Washukanni",
-  "dica": "Capital do Reino de Mitani, ainda não identificada com absoluta certeza pela arqueologia."
-},
-{
-  "palavra": "Minóicos",
-  "dica": "Civilização antiga da ilha de Creta, conhecida por palácios, comércio marítimo e arte sofisticada."
-},
-{
-  "palavra": "Creta",
-  "dica": "Ilha do mar Egeu onde se desenvolveu a civilização minoica."
-},
-{
-  "palavra": "Cnossos",
-  "dica": "Principal centro palaciano da civilização minoica, associado ao mito do labirinto e do Minotauro."
-},
-{
-  "palavra": "Minotauro",
-  "dica": "Criatura da mitologia grega associada ao labirinto de Creta e ao imaginário sobre a civilização minoica."
-},
-{
-  "palavra": "Labirinto",
-  "dica": "Construção mítica associada ao palácio de Cnossos e à lenda do Minotauro."
-},
-{
-  "palavra": "Micênicos",
-  "dica": "Civilização grega da Idade do Bronze, marcada por palácios fortificados, aristocracia guerreira e escrita Linear B."
-},
-{
-  "palavra": "Micenas",
-  "dica": "Cidade fortificada que deu nome à civilização micênica, associada ao poder militar e palaciano."
-},
-{
-  "palavra": "Linear B",
-  "dica": "Sistema de escrita usado pelos micênicos para registrar informações administrativas em uma forma antiga do grego."
-},
-{
-  "palavra": "Agamênon",
-  "dica": "Rei lendário de Micenas, associado à Guerra de Troia nas tradições épicas gregas."
-},
-{
-  "palavra": "Aqueus",
-  "dica": "Nome usado em tradições gregas para se referir a grupos ligados ao mundo micênico."
-},
-{
-  "palavra": "Etrúria",
-  "dica": "Região da Itália antiga habitada pelos etruscos, situada principalmente ao norte de Roma."
-},
-{
-  "palavra": "Tarquínio",
-  "dica": "Nome associado aos reis etruscos de Roma, especialmente Tarquínio Prisco e Tarquínio, o Soberbo."
-},
-{
-  "palavra": "Áugures",
-  "dica": "Sacerdotes que interpretavam sinais divinos, prática religiosa influenciada pelos etruscos e adotada pelos romanos."
-},
-{
-  "palavra": "Cartagineses",
-  "dica": "Povo de Cartago, cidade fundada por fenícios no norte da África e grande rival de Roma no Mediterrâneo."
-},
-{
-  "palavra": "Púnicas",
-  "dica": "Guerras entre Roma e Cartago pelo domínio do Mediterrâneo ocidental."
-},
-{
-  "palavra": "Alpes",
-  "dica": "Cordilheira atravessada por Aníbal em sua campanha contra Roma durante a Segunda Guerra Púnica."
-},
-{
-  "palavra": "Cipião",
-  "dica": "General romano que derrotou Aníbal na Batalha de Zama, encerrando a Segunda Guerra Púnica."
-},
-{
-  "palavra": "China",
-  "dica": "Civilização antiga do Extremo Oriente, marcada pelo desenvolvimento de dinastias, escrita, agricultura, filosofia e organização estatal."
-},
-{
-  "palavra": "Huang He",
-  "dica": "Rio Amarelo, uma das áreas centrais para o desenvolvimento das primeiras civilizações chinesas."
-},
-{
-  "palavra": "Yangtzé",
-  "dica": "Grande rio chinês que também favoreceu agricultura, povoamento e desenvolvimento de sociedades antigas."
-},
-{
-  "palavra": "Shang",
-  "dica": "Dinastia chinesa antiga associada ao uso do bronze, à escrita em ossos oraculares e ao poder aristocrático."
-},
-{
-  "palavra": "Zhou",
-  "dica": "Dinastia chinesa que sucedeu os Shang e difundiu a ideia do Mandato do Céu."
-},
-{
-  "palavra": "Mandato do Céu",
-  "dica": "Ideia política chinesa segundo a qual o governante recebia legitimidade do Céu, mas poderia perdê-la se governasse mal."
-},
-{
-  "palavra": "Qin",
-  "dica": "Dinastia que unificou a China em 221 a.C., centralizando o poder e fortalecendo a administração imperial."
-},
-{
-  "palavra": "Shi Huangdi",
-  "dica": "Primeiro imperador da China unificada, ligado à dinastia Qin, à centralização política e ao exército de terracota."
-},
-{
-  "palavra": "Han",
-  "dica": "Dinastia chinesa que consolidou instituições imperiais, ampliou contatos comerciais e fortaleceu a burocracia estatal."
-},
-{
-  "palavra": "Confúcio",
-  "dica": "Pensador chinês que defendia ordem social, respeito às hierarquias, virtude moral e bom governo."
-},
-{
-  "palavra": "Confucionismo",
-  "dica": "Tradição filosófica chinesa baseada nos ensinamentos de Confúcio, muito influente na política e na educação."
-},
-{
-  "palavra": "Lao-Tsé",
-  "dica": "Pensador associado ao taoismo, tradição filosófica chinesa centrada no Tao e na harmonia com a natureza."
-},
-{
-  "palavra": "Taoismo",
-  "dica": "Tradição filosófica e religiosa chinesa que valoriza o Tao, a simplicidade, o equilíbrio e a harmonia natural."
-},
-{
-  "palavra": "Legalismo",
-  "dica": "Corrente política chinesa que defendia leis rígidas, punições severas e forte controle do Estado."
-},
-{
-  "palavra": "Terracota",
-  "dica": "Exército de esculturas de soldados enterrado junto ao primeiro imperador Qin para acompanhá-lo no além."
-},
-{
-  "palavra": "Muralha",
-  "dica": "Sistema defensivo chinês ampliado ao longo de diferentes períodos para proteger fronteiras contra invasões."
-},
-{
-  "palavra": "Seda",
-  "dica": "Produto de luxo chinês muito valorizado no comércio antigo e associado às rotas comerciais entre Oriente e Ocidente."
-},
-{
-  "palavra": "Rota da Seda",
-  "dica": "Rede de rotas comerciais que conectava a China a regiões da Ásia Central, Oriente Médio e Mediterrâneo."
-},
-{
-  "palavra": "Indo",
-  "dica": "Rio associado ao desenvolvimento da Civilização do Vale do Indo, uma das mais antigas do sul da Ásia."
-},
-{
-  "palavra": "Harappa",
-  "dica": "Cidade importante da Civilização do Vale do Indo, conhecida por seu planejamento urbano."
-},
-{
-  "palavra": "Mohenjo-Daro",
-  "dica": "Cidade da Civilização do Vale do Indo, famosa por ruas planejadas, drenagem e organização urbana."
-},
-{
-  "palavra": "Vedas",
-  "dica": "Textos sagrados antigos da tradição indiana, associados ao período védico e à religião dos povos indo-arianos."
-},
-{
-  "palavra": "Arianos",
-  "dica": "Grupos indo-arianos que se estabeleceram no norte da Índia e influenciaram a cultura védica."
-},
-{
-  "palavra": "Sânscrito",
-  "dica": "Língua clássica da Índia antiga, usada em textos religiosos, literários e filosóficos."
-},
-{
-  "palavra": "Castas",
-  "dica": "Sistema social hierarquizado associado à Índia antiga, com divisões como brâmanes, xátrias, vaixás e sudras."
-},
-{
-  "palavra": "Brâmanes",
-  "dica": "Grupo sacerdotal de maior prestígio no sistema de castas da tradição indiana antiga."
-},
-{
-  "palavra": "Hinduísmo",
-  "dica": "Tradição religiosa indiana formada por diversas crenças, rituais e textos, com raízes antigas no período védico."
-},
-{
-  "palavra": "Budismo",
-  "dica": "Religião surgida na Índia antiga a partir dos ensinamentos de Sidarta Gautama, o Buda."
-},
-{
-  "palavra": "Buda",
-  "dica": "Título de Sidarta Gautama, fundador do budismo, associado ao despertar espiritual e ao caminho contra o sofrimento."
-},
-{
-  "palavra": "Máuria",
-  "dica": "Império indiano antigo que unificou grande parte do subcontinente, especialmente sob Chandragupta e Ashoka."
-},
-{
-  "palavra": "Ashoka",
-  "dica": "Imperador mauria conhecido por apoiar a difusão do budismo após a violenta Guerra de Kalinga."
-},
-{
-  "palavra": "Gupta",
-  "dica": "Dinastia indiana associada a um período de florescimento cultural, científico, artístico e religioso."
-},
-{
-  "palavra": "Japão",
-  "dica": "Arquipélago do Extremo Oriente cuja Antiguidade foi marcada por culturas arqueológicas, chefaturas e formação inicial do Estado."
-},
-{
-  "palavra": "Jomon",
-  "dica": "Período antigo do Japão conhecido por comunidades de caçadores-coletores, cerâmica decorada e vida sedentária parcial."
-},
-{
-  "palavra": "Yayoi",
-  "dica": "Período japonês associado à introdução do cultivo de arroz, metalurgia e maior estratificação social."
-},
-{
-  "palavra": "Kofun",
-  "dica": "Período japonês marcado por grandes túmulos funerários e pelo fortalecimento de elites guerreiras e políticas."
-},
-{
-  "palavra": "Yamato",
-  "dica": "Centro político antigo do Japão associado à formação inicial do Estado japonês e da autoridade imperial."
-},
-{
-  "palavra": "Xintoísmo",
-  "dica": "Tradição religiosa japonesa ligada ao culto aos kami, forças ou divindades associadas à natureza e aos ancestrais."
-},
-{
-  "palavra": "Kami",
-  "dica": "Espíritos, forças sagradas ou divindades cultuadas no xintoísmo japonês."
-},
-{
-  "palavra": "Amaterasu",
-  "dica": "Deusa solar do xintoísmo, associada à origem mítica da linhagem imperial japonesa."
-},
-{
-  "palavra": "Arroz",
-  "dica": "Cultivo que ganhou grande importância no Japão antigo durante o período Yayoi, transformando a economia e a sociedade."
-},
-{
-  "palavra": "Cerâmica",
-  "dica": "Produção material muito importante no período Jomon, especialmente vasos decorados com marcas de corda."
-},
-{
-  "palavra": "Túmulo",
-  "dica": "Grande estrutura funerária associada ao período Kofun e às elites políticas do Japão antigo."
-},
-{
-  "palavra": "Imperador",
-  "dica": "Autoridade central ligada à formação política do Japão antigo e à tradição de descendência mítica de Amaterasu."
-},
-{
-  "palavra": "Wa",
-  "dica": "Nome usado em fontes chinesas antigas para se referir a povos ou comunidades do arquipélago japonês."
-},
-{
-  "palavra": "Nara",
-  "dica": "Antiga capital japonesa do século VIII, associada à consolidação do Estado, do budismo e da administração imperial."
-},
-{
-  "palavra": "Heian",
-  "dica": "Período posterior da história antiga japonesa, marcado por cultura aristocrática e fortalecimento da corte imperial."
-},
-{
-  "palavra": "Média",
-  "dica": "Região montanhosa do planalto iraniano associada aos medos e à formação de seu poder político."
-},
-{
-  "palavra": "Ciáxares",
-  "dica": "Rei medo associado ao fortalecimento militar dos medos e à participação na queda do Império Assírio."
-},
-{
-  "palavra": "Astíages",
-  "dica": "Último rei medo, derrotado por Ciro, o Grande, evento que abriu caminho para a ascensão persa."
-},
-{
-  "palavra": "Iranianos",
-  "dica": "Grupo de povos indo-europeus do planalto iraniano, do qual faziam parte medos e persas."
-},
-{
-  "palavra": "Lídia",
-  "dica": "Região da Anatólia onde se desenvolveu o reino dos lídios."
-},
-{
-  "palavra": "Creso",
-  "dica": "Rei lídio famoso por sua riqueza e por ter sido derrotado por Ciro, o Grande."
-},
-{
-  "palavra": "Moeda",
-  "dica": "Instrumento econômico associado aos lídios, frequentemente lembrados pelo uso inicial de moedas metálicas."
-},
-{
-  "palavra": "Electro",
-  "dica": "Liga natural de ouro e prata usada na fabricação das primeiras moedas lídias."
-},
+[
+  {
+    "palavra": "Mesopotâmia",
+    "dica": "Região histórica localizada entre os rios Tigre e Eufrates, considerada uma das primeiras áreas de formação de cidades e Estados."
+  },
+  {
+    "palavra": "Tigre",
+    "dica": "Um dos principais rios da Mesopotâmia, importante para a agricultura, o transporte e a formação das primeiras cidades."
+  },
+  {
+    "palavra": "Eufrates",
+    "dica": "Rio fundamental para a vida na Mesopotâmia, usado para irrigação e desenvolvimento agrícola."
+  },
+  {
+    "palavra": "Sumérios",
+    "dica": "Povo da Baixa Mesopotâmia associado à formação das primeiras cidades-Estado, como Ur, Uruk e Lagash."
+  },
+  {
+    "palavra": "Acádios",
+    "dica": "Povo semita que formou um dos primeiros impérios mesopotâmicos, liderado por Sargão da Acádia."
+  },
+  {
+    "palavra": "Babilônios",
+    "dica": "Povo mesopotâmico conhecido pelo Primeiro Império Babilônico e pelo Código de Hamurábi."
+  },
+  {
+    "palavra": "Assírios",
+    "dica": "Povo mesopotâmico marcado pela força militar, expansão territorial e construção de um grande império."
+  },
+  {
+    "palavra": "Caldeus",
+    "dica": "Povo ligado ao Segundo Império Babilônico, período em que Nabucodonosor II governou a Babilônia."
+  },
+  {
+    "palavra": "Uruk",
+    "dica": "Uma das cidades mais antigas da Mesopotâmia, associada ao desenvolvimento urbano e à figura lendária de Gilgamesh."
+  },
+  {
+    "palavra": "Zigurate",
+    "dica": "Templo em formato de torre construído nas cidades mesopotâmicas, ligado à religião e ao poder político."
+  },
+  {
+    "palavra": "Cuneiforme",
+    "dica": "Sistema de escrita criado pelos sumérios, feito com sinais em forma de cunha gravados em placas de argila."
+  },
+  {
+    "palavra": "Hamurábi",
+    "dica": "Rei babilônico conhecido por organizar um dos códigos de leis mais famosos da Antiguidade."
+  },
+  {
+    "palavra": "Politeísmo",
+    "dica": "Crença em vários deuses, característica importante da religião mesopotâmica."
+  },
+  {
+    "palavra": "Irrigação",
+    "dica": "Técnica usada para controlar e distribuir a água dos rios, fundamental para a agricultura mesopotâmica."
+  },
+  {
+    "palavra": "Gilgamesh",
+    "dica": "Personagem ligado a uma das obras literárias mais antigas conhecidas, a Epopeia de Gilgamesh."
+  },
+  {
+    "palavra": "Argila",
+    "dica": "Material usado pelos mesopotâmicos para produzir placas onde eram registrados textos em escrita cuneiforme."
+  },
+  {
+    "palavra": "Ur",
+    "dica": "Importante cidade suméria da Mesopotâmia, conhecida por seu desenvolvimento urbano, religioso e comercial."
+  },
+  {
+    "palavra": "Lagash",
+    "dica": "Cidade-Estado suméria que teve destaque político e econômico na Baixa Mesopotâmia."
+  },
+  {
+    "palavra": "Nipur",
+    "dica": "Cidade mesopotâmica de grande importância religiosa, associada ao culto do deus Enlil."
+  },
+  {
+    "palavra": "Enlil",
+    "dica": "Deus mesopotâmico ligado ao vento, às tempestades e à autoridade divina sobre reis e cidades."
+  },
+  {
+    "palavra": "Marduk",
+    "dica": "Principal deus da Babilônia, especialmente valorizado durante o período de expansão do poder babilônico."
+  },
+  {
+    "palavra": "Ishtar",
+    "dica": "Deusa mesopotâmica associada ao amor, à fertilidade, à guerra e ao poder."
+  },
+  {
+    "palavra": "Sargão",
+    "dica": "Governante acadiano que formou um dos primeiros grandes impérios da história mesopotâmica."
+  },
+  {
+    "palavra": "Nabucodonosor",
+    "dica": "Rei caldeu da Babilônia, conhecido por suas conquistas militares e grandes construções urbanas."
+  },
+  {
+    "palavra": "Nínive",
+    "dica": "Importante cidade assíria que se tornou capital do Império Assírio em seu período de grande expansão."
+  },
+  {
+    "palavra": "Assurbanipal",
+    "dica": "Rei assírio conhecido por formar uma grande biblioteca em Nínive, reunindo textos em escrita cuneiforme."
+  },
+  {
+    "palavra": "Escribas",
+    "dica": "Profissionais responsáveis por registrar informações, leis, contas, contratos e textos religiosos na Mesopotâmia."
+  },
+  {
+    "palavra": "Cidade-Estado",
+    "dica": "Forma de organização política em que uma cidade tinha governo próprio e controlava o território ao seu redor."
+  },
+  {
+    "palavra": "Teocracia",
+    "dica": "Sistema político em que o poder do governante era justificado pela religião e pela vontade dos deuses."
+  },
+  {
+    "palavra": "Excedente",
+    "dica": "Produção agrícola que sobrava após o consumo imediato, permitindo comércio, especialização do trabalho e crescimento urbano."
+  },
+  {
+    "palavra": "Comércio",
+    "dica": "Atividade importante na Mesopotâmia, favorecida pelos rios e pela necessidade de trocar produtos entre diferentes regiões."
+  },
+  {
+    "palavra": "Astronomia",
+    "dica": "Área de conhecimento desenvolvida pelos mesopotâmicos a partir da observação dos astros e da organização do calendário."
+  },
+  {
+    "palavra": "Egito",
+    "dica": "Civilização antiga formada no nordeste da África, desenvolvida principalmente às margens do rio Nilo."
+  },
+  {
+    "palavra": "Nilo",
+    "dica": "Rio fundamental para a agricultura, o transporte e a sobrevivência da civilização egípcia antiga."
+  },
+  {
+    "palavra": "Faraó",
+    "dica": "Título dado ao governante do Egito Antigo, considerado uma autoridade política, religiosa e divina."
+  },
+  {
+    "palavra": "Pirâmides",
+    "dica": "Grandes construções funerárias feitas para abrigar os corpos de faraós e demonstrar poder religioso e político."
+  },
+  {
+    "palavra": "Gizé",
+    "dica": "Região do Egito conhecida pelas famosas pirâmides de Quéops, Quéfren e Miquerinos."
+  },
+  {
+    "palavra": "Quéops",
+    "dica": "Faraó associado à maior das pirâmides de Gizé, uma das construções mais famosas do mundo antigo."
+  },
+  {
+    "palavra": "Quéfren",
+    "dica": "Faraó ligado a uma das grandes pirâmides de Gizé e frequentemente associado à Grande Esfinge."
+  },
+  {
+    "palavra": "Miquerinos",
+    "dica": "Faraó associado à menor das três principais pirâmides de Gizé."
+  },
+  {
+    "palavra": "Esfinge",
+    "dica": "Monumento com corpo de leão e cabeça humana, associado à proteção simbólica e ao poder real egípcio."
+  },
+  {
+    "palavra": "Mumificação",
+    "dica": "Técnica usada pelos egípcios para preservar corpos, ligada à crença na vida após a morte."
+  },
+  {
+    "palavra": "Múmia",
+    "dica": "Corpo preservado por técnicas funerárias, preparado para a continuidade da existência no além."
+  },
+  {
+    "palavra": "Sarcófago",
+    "dica": "Objeto funerário semelhante a um caixão, usado para proteger o corpo mumificado."
+  },
+  {
+    "palavra": "Hieróglifos",
+    "dica": "Sistema de escrita egípcio formado por sinais e desenhos usados em monumentos, templos e registros religiosos."
+  },
+  {
+    "palavra": "Papiro",
+    "dica": "Material produzido a partir de uma planta do Nilo, usado como suporte para a escrita no Egito Antigo."
+  },
+  {
+    "palavra": "Escribas",
+    "dica": "Profissionais responsáveis pela escrita, pelos registros administrativos e pela organização de documentos no Egito Antigo."
+  },
+  {
+    "palavra": "Politeísmo",
+    "dica": "Crença em vários deuses, característica central da religião egípcia antiga."
+  },
+  {
+    "palavra": "Rá",
+    "dica": "Deus solar egípcio, associado ao Sol, à criação e à força vital."
+  },
+  {
+    "palavra": "Osíris",
+    "dica": "Deus egípcio ligado à morte, à ressurreição e ao julgamento dos mortos."
+  },
+  {
+    "palavra": "Ísis",
+    "dica": "Deusa egípcia associada à maternidade, à magia, à proteção e à reconstrução da vida."
+  },
+  {
+    "palavra": "Hórus",
+    "dica": "Deus egípcio geralmente representado com cabeça de falcão, associado à realeza e ao poder do faraó."
+  },
+  {
+    "palavra": "Anúbis",
+    "dica": "Deus egípcio ligado à mumificação, aos rituais funerários e à proteção dos mortos."
+  },
+  {
+    "palavra": "Maat",
+    "dica": "Conceito egípcio relacionado à ordem, justiça, equilíbrio e harmonia do universo."
+  },
+  {
+    "palavra": "Templos",
+    "dica": "Construções religiosas dedicadas aos deuses, usadas em rituais e ligadas ao poder dos sacerdotes."
+  },
+  {
+    "palavra": "Sacerdotes",
+    "dica": "Grupo responsável pelos cultos religiosos, pelos rituais nos templos e pela relação simbólica com os deuses."
+  },
+  {
+    "palavra": "Camponeses",
+    "dica": "Maioria da população egípcia, responsável pelo trabalho agrícola nas terras próximas ao rio Nilo."
+  },
+  {
+    "palavra": "Irrigação",
+    "dica": "Técnica de controle e distribuição da água, essencial para aproveitar as cheias do Nilo na agricultura."
+  },
+  {
+    "palavra": "Cheias",
+    "dica": "Inundações periódicas do rio Nilo que fertilizavam as terras e favoreciam o plantio."
+  },
+  {
+    "palavra": "Nomos",
+    "dica": "Divisões administrativas do Egito Antigo, governadas por autoridades locais chamadas nomarcas."
+  },
+  {
+    "palavra": "Nomarcas",
+    "dica": "Governantes locais responsáveis pela administração dos nomos no Egito Antigo."
+  },
+  {
+    "palavra": "Teocracia",
+    "dica": "Forma de governo em que o poder político é fortemente ligado à religião e à autoridade divina."
+  },
+  {
+    "palavra": "Cleópatra",
+    "dica": "Rainha do período final do Egito antigo, ligada à dinastia ptolomaica e às relações com Roma."
+  },
+  {
+    "palavra": "Tutancâmon",
+    "dica": "Faraó jovem cuja tumba quase intacta se tornou uma das descobertas arqueológicas mais famosas do Egito."
+  },
+  {
+    "palavra": "Fenícios",
+    "dica": "Povo antigo do litoral oriental do Mediterrâneo, conhecido pelo comércio marítimo e pela difusão de um alfabeto."
+  },
+  {
+    "palavra": "Cartago",
+    "dica": "Cidade fundada por fenícios no norte da África, que se tornou uma grande potência comercial e militar."
+  },
+  {
+    "palavra": "Tiro",
+    "dica": "Importante cidade fenícia, famosa por seu comércio marítimo e pela produção da púrpura."
+  },
+  {
+    "palavra": "Sídon",
+    "dica": "Cidade fenícia relevante no comércio, na navegação e na produção artesanal."
+  },
+  {
+    "palavra": "Biblos",
+    "dica": "Cidade fenícia associada ao comércio de papiro e às trocas culturais no Mediterrâneo antigo."
+  },
+  {
+    "palavra": "Púrpura",
+    "dica": "Corante valioso produzido pelos fenícios a partir de moluscos, usado em tecidos de luxo."
+  },
+  {
+    "palavra": "Alfabeto",
+    "dica": "Sistema de escrita simplificado difundido pelos fenícios, com grande influência sobre alfabetos posteriores."
+  },
+  {
+    "palavra": "Elamitas",
+    "dica": "Povo antigo situado principalmente na região do atual sudoeste do Irã, com capital em Susã."
+  },
+  {
+    "palavra": "Susã",
+    "dica": "Importante cidade do Elão, depois incorporada ao Império Persa como centro administrativo."
+  },
+  {
+    "palavra": "Elão",
+    "dica": "Antiga região localizada a leste da Mesopotâmia, marcada pela presença dos elamitas."
+  },
+  {
+    "palavra": "Persas",
+    "dica": "Povo iraniano que formou um dos maiores impérios da Antiguidade, especialmente sob a dinastia aquemênida."
+  },
+  {
+    "palavra": "Aquemênidas",
+    "dica": "Dinastia persa fundada por Ciro, responsável pela expansão do grande Império Persa."
+  },
+  {
+    "palavra": "Ciro",
+    "dica": "Rei persa conhecido por fundar o Império Aquemênida e conquistar diversos povos do Oriente Antigo."
+  },
+  {
+    "palavra": "Dario",
+    "dica": "Rei persa que reorganizou o império em satrapias, fortaleceu estradas e aperfeiçoou a administração."
+  },
+  {
+    "palavra": "Sátrapas",
+    "dica": "Governadores das províncias do Império Persa, chamadas satrapias."
+  },
+  {
+    "palavra": "Satrapias",
+    "dica": "Províncias administrativas do Império Persa, criadas para facilitar o controle de um território muito extenso."
+  },
+  {
+    "palavra": "Zoroastrismo",
+    "dica": "Religião persa associada aos ensinamentos de Zaratustra e à oposição entre bem e mal."
+  },
+  {
+    "palavra": "Hititas",
+    "dica": "Povo antigo da Anatólia, conhecido pelo uso do ferro e por sua força militar."
+  },
+  {
+    "palavra": "Anatólia",
+    "dica": "Região da atual Turquia onde se desenvolveram povos antigos como os hititas."
+  },
+  {
+    "palavra": "Hattusa",
+    "dica": "Capital do Império Hitita, localizada na Anatólia."
+  },
+  {
+    "palavra": "Hebreus",
+    "dica": "Povo semita do Oriente Antigo, cuja história está ligada ao monoteísmo e à tradição bíblica."
+  },
+  {
+    "palavra": "Monoteísmo",
+    "dica": "Crença em um único Deus, característica central da religião dos antigos hebreus."
+  },
+  {
+    "palavra": "Jerusalém",
+    "dica": "Cidade de grande importância religiosa e política para os hebreus e outros povos do Oriente Antigo."
+  },
+  {
+    "palavra": "Israelitas",
+    "dica": "Grupo ligado aos antigos reinos de Israel e Judá, associados à tradição hebraica."
+  },
+  {
+    "palavra": "Arameus",
+    "dica": "Povo semita do Oriente Antigo, conhecido pela difusão do idioma aramaico."
+  },
+  {
+    "palavra": "Aramaico",
+    "dica": "Idioma muito usado no Oriente Antigo, especialmente em comunicações administrativas e comerciais."
+  },
+  {
+    "palavra": "Medos",
+    "dica": "Povo iraniano que antecedeu a ascensão dos persas e teve papel importante na queda do poder assírio."
+  },
+  {
+    "palavra": "Frígios",
+    "dica": "Povo da Anatólia antiga, associado ao lendário rei Midas."
+  },
+  {
+    "palavra": "Lídios",
+    "dica": "Povo da Anatólia conhecido pelo desenvolvimento de uma das primeiras moedas metálicas."
+  },
+  {
+    "palavra": "Sardes",
+    "dica": "Capital da Lídia, importante centro comercial da Anatólia antiga."
+  },
+  {
+    "palavra": "Ugarit",
+    "dica": "Cidade antiga do Levante conhecida por seus textos cuneiformes e por sua importância comercial."
+  },
+  {
+    "palavra": "Levante",
+    "dica": "Região do Mediterrâneo oriental onde viveram povos como fenícios, hebreus, arameus e cananeus."
+  },
+  {
+    "palavra": "Persas",
+    "dica": "Povo iraniano antigo que formou um dos maiores impérios da Antiguidade, com domínio sobre regiões da Ásia, África e Europa."
+  },
+  {
+    "palavra": "Ciro",
+    "dica": "Rei persa fundador do Império Aquemênida, conhecido por conquistar a Babilônia e ampliar o domínio persa."
+  },
+  {
+    "palavra": "Cambises",
+    "dica": "Rei persa, filho de Ciro, responsável pela conquista do Egito no século VI a.C."
+  },
+  {
+    "palavra": "Dario",
+    "dica": "Rei persa que reorganizou o império, criou satrapias, fortaleceu estradas e padronizou impostos."
+  },
+  {
+    "palavra": "Xerxes",
+    "dica": "Rei persa que liderou uma grande campanha militar contra os gregos durante as Guerras Médicas."
+  },
+  {
+    "palavra": "Aquemênidas",
+    "dica": "Dinastia persa fundada por Ciro, responsável pela formação e expansão do primeiro grande Império Persa."
+  },
+  {
+    "palavra": "Sasânidas",
+    "dica": "Dinastia persa posterior aos partas, marcada por conflitos com o Império Romano e Bizantino."
+  },
+  {
+    "palavra": "Partas",
+    "dica": "Povo iraniano que formou um império entre os períodos aquemênida e sassânida, conhecido por sua cavalaria."
+  },
+  {
+    "palavra": "Persépolis",
+    "dica": "Cidade cerimonial do Império Persa Aquemênida, construída principalmente durante o governo de Dario I."
+  },
+  {
+    "palavra": "Susã",
+    "dica": "Importante cidade administrativa do Império Persa, usada como uma das capitais do poder aquemênida."
+  },
+  {
+    "palavra": "Pasárgada",
+    "dica": "Antiga capital persa associada a Ciro, onde se encontra seu famoso túmulo."
+  },
+  {
+    "palavra": "Ecbátana",
+    "dica": "Cidade antiga ligada aos medos e depois usada pelos persas como centro político e administrativo."
+  },
+  {
+    "palavra": "Satrapias",
+    "dica": "Províncias administrativas criadas para facilitar o controle do extenso território persa."
+  },
+  {
+    "palavra": "Sátrapas",
+    "dica": "Governadores das satrapias, responsáveis por administrar regiões do Império Persa em nome do rei."
+  },
+  {
+    "palavra": "Zoroastrismo",
+    "dica": "Religião persa ligada aos ensinamentos de Zaratustra, com destaque para a oposição entre bem e mal."
+  },
+  {
+    "palavra": "Zaratustra",
+    "dica": "Profeta associado ao zoroastrismo, tradição religiosa importante na antiga cultura persa."
+  },
+  {
+    "palavra": "Ahura Mazda",
+    "dica": "Divindade central do zoroastrismo, associada à luz, à verdade e ao bem."
+  },
+  {
+    "palavra": "Angra Mainyu",
+    "dica": "Espírito destrutivo do zoroastrismo, associado ao mal, à mentira e ao caos."
+  },
+  {
+    "palavra": "Imortal",
+    "dica": "Soldado da elite militar persa, pertencente ao famoso corpo de infantaria conhecido como Os Dez Mil Imortais."
+  },
+  {
+    "palavra": "Dárico",
+    "dica": "Moeda de ouro persa usada no Império Aquemênida, associada à padronização econômica promovida por Dario."
+  },
+  {
+    "palavra": "Estrada Real",
+    "dica": "Rede de caminhos do Império Persa que facilitava comunicações, comércio e deslocamento militar."
+  },
+  {
+    "palavra": "Correios",
+    "dica": "Sistema de mensageiros persas usado para transmitir ordens e informações por longas distâncias."
+  },
+  {
+    "palavra": "Cilindro",
+    "dica": "Objeto associado a Ciro, frequentemente lembrado por registrar sua conquista da Babilônia e sua política de governo."
+  },
+  {
+    "palavra": "Babilônia",
+    "dica": "Cidade conquistada por Ciro em 539 a.C., tornando-se parte do Império Persa."
+  },
+  {
+    "palavra": "Medos",
+    "dica": "Povo iraniano que antecedeu os persas como potência regional e teve papel importante na formação do mundo persa."
+  },
+  {
+    "palavra": "Irã",
+    "dica": "Região histórica ligada aos povos persas e a outras populações iranianas da Antiguidade."
+  },
+  {
+    "palavra": "Elão",
+    "dica": "Antiga região próxima à Pérsia, com forte relação histórica e cultural com o sudoeste iraniano."
+  },
+  {
+    "palavra": "Árias",
+    "dica": "Termo usado historicamente para designar grupos indo-iranianos ligados à formação cultural de povos como medos e persas."
+  },
+  {
+    "palavra": "Guerras Médicas",
+    "dica": "Conflitos entre persas e cidades gregas no século V a.C., envolvendo batalhas como Maratona, Termópilas e Salamina."
+  },
+  {
+    "palavra": "Maratona",
+    "dica": "Batalha de 490 a.C. em que os atenienses derrotaram uma força persa enviada por Dario I."
+  },
+  {
+    "palavra": "Termópilas",
+    "dica": "Batalha de 480 a.C. em que uma aliança grega tentou conter o avanço persa liderado por Xerxes."
+  },
+  {
+    "palavra": "Salamina",
+    "dica": "Batalha naval de 480 a.C. em que os gregos derrotaram a frota persa durante a invasão de Xerxes."
+  },
+  {
+    "palavra": "Hebreus",
+    "dica": "Povo semita do Oriente Antigo, cuja história está ligada à tradição bíblica, ao monoteísmo e aos reinos de Israel e Judá."
+  },
+  {
+    "palavra": "Abraão",
+    "dica": "Patriarca associado à origem dos hebreus e à aliança com Deus segundo a tradição bíblica."
+  },
+  {
+    "palavra": "Isac",
+    "dica": "Filho de Abraão, considerado um dos patriarcas da tradição hebraica."
+  },
+  {
+    "palavra": "Jacó",
+    "dica": "Patriarca também chamado de Israel, associado à origem das doze tribos israelitas."
+  },
+  {
+    "palavra": "Israel",
+    "dica": "Nome associado tanto ao patriarca Jacó quanto ao antigo reino hebraico formado no norte da Palestina."
+  },
+  {
+    "palavra": "Doze Tribos",
+    "dica": "Grupos descendentes dos filhos de Jacó, segundo a tradição bíblica, que formariam a base do povo israelita."
+  },
+  {
+    "palavra": "Canaã",
+    "dica": "Região do Oriente Antigo associada à fixação dos hebreus e chamada na tradição bíblica de Terra Prometida."
+  },
+  {
+    "palavra": "Palestina",
+    "dica": "Região histórica do Levante onde se desenvolveram comunidades hebraicas e outros povos antigos."
+  },
+  {
+    "palavra": "Monoteísmo",
+    "dica": "Crença em um único Deus, elemento central da religião hebraica."
+  },
+  {
+    "palavra": "Iavé",
+    "dica": "Nome usado para se referir ao Deus dos hebreus na tradição bíblica."
+  },
+  {
+    "palavra": "Aliança",
+    "dica": "Ideia religiosa de compromisso entre Deus e o povo hebreu, muito importante na tradição bíblica."
+  },
+  {
+    "palavra": "Moisés",
+    "dica": "Líder hebreu associado à saída do Egito, ao Êxodo e ao recebimento das leis divinas."
+  },
+  {
+    "palavra": "Êxodo",
+    "dica": "Narrativa da saída dos hebreus do Egito, conduzidos por Moisés segundo a tradição bíblica."
+  },
+  {
+    "palavra": "Sinai",
+    "dica": "Monte associado ao recebimento das Tábuas da Lei por Moisés."
+  },
+  {
+    "palavra": "Decálogo",
+    "dica": "Conjunto dos Dez Mandamentos, considerado base moral e religiosa da tradição hebraica."
+  },
+  {
+    "palavra": "Torá",
+    "dica": "Conjunto dos cinco primeiros livros da Bíblia hebraica, central para a religião judaica."
+  },
+  {
+    "palavra": "Juízes",
+    "dica": "Líderes militares e religiosos que teriam conduzido os hebreus antes da formação da monarquia."
+  },
+  {
+    "palavra": "Samuel",
+    "dica": "Profeta e juiz ligado à transição entre o período dos juízes e a monarquia hebraica."
+  },
+  {
+    "palavra": "Saul",
+    "dica": "Tradicionalmente considerado o primeiro rei dos hebreus."
+  },
+  {
+    "palavra": "Davi",
+    "dica": "Rei hebreu associado à unificação das tribos e à transformação de Jerusalém em centro político."
+  },
+  {
+    "palavra": "Salomão",
+    "dica": "Rei hebreu associado à construção do Primeiro Templo de Jerusalém e a um período de prosperidade."
+  },
+  {
+    "palavra": "Jerusalém",
+    "dica": "Cidade de grande importância política e religiosa para os hebreus, ligada ao templo e à monarquia."
+  },
+  {
+    "palavra": "Templo",
+    "dica": "Centro religioso de Jerusalém, associado ao culto hebraico e à presença simbólica de Deus."
+  },
+  {
+    "palavra": "Levitas",
+    "dica": "Grupo ligado às funções religiosas e ao serviço no templo na tradição hebraica."
+  },
+  {
+    "palavra": "Sacerdotes",
+    "dica": "Autoridades religiosas responsáveis por rituais, sacrifícios e práticas ligadas ao templo."
+  },
+  {
+    "palavra": "Profetas",
+    "dica": "Figuras religiosas que denunciavam injustiças, criticavam governantes e anunciavam mensagens atribuídas a Deus."
+  },
+  {
+    "palavra": "Isaías",
+    "dica": "Profeta hebreu associado a mensagens de crítica social, esperança e fidelidade religiosa."
+  },
+  {
+    "palavra": "Jeremias",
+    "dica": "Profeta hebreu ligado às advertências sobre a queda de Jerusalém e o exílio babilônico."
+  },
+  {
+    "palavra": "Reino de Israel",
+    "dica": "Reino hebraico do norte, formado após a divisão política ocorrida depois do reinado de Salomão."
+  },
+  {
+    "palavra": "Reino de Judá",
+    "dica": "Reino hebraico do sul, com capital em Jerusalém, formado após a divisão da monarquia."
+  },
+  {
+    "palavra": "Exílio",
+    "dica": "Período em que parte dos hebreus foi deportada para a Babilônia após a conquista de Jerusalém."
+  },
+  {
+    "palavra": "Diáspora",
+    "dica": "Dispersão dos judeus por diferentes regiões, especialmente após conquistas e dominações estrangeiras."
+  },
+  {
+    "palavra": "Grécia",
+    "dica": "Civilização antiga formada por diferentes cidades-Estado, com grande influência na política, filosofia, arte, teatro e ciência ocidental."
+  },
+  {
+    "palavra": "Pólis",
+    "dica": "Cidade-Estado grega, com governo próprio, leis, território e identidade política independente."
+  },
+  {
+    "palavra": "Atenas",
+    "dica": "Cidade-Estado grega conhecida pelo desenvolvimento da democracia, da filosofia, do teatro e da vida cultural."
+  },
+  {
+    "palavra": "Esparta",
+    "dica": "Cidade-Estado grega marcada pela organização militar, disciplina rígida e valorização da guerra."
+  },
+  {
+    "palavra": "Acrópole",
+    "dica": "Parte alta da cidade grega, geralmente usada para templos, defesa e edifícios religiosos importantes."
+  },
+  {
+    "palavra": "Ágora",
+    "dica": "Praça pública das cidades gregas, usada para comércio, encontros políticos e debates entre cidadãos."
+  },
+  {
+    "palavra": "Democracia",
+    "dica": "Forma de governo desenvolvida em Atenas, na qual os cidadãos participavam diretamente das decisões políticas."
+  },
+  {
+    "palavra": "Eclésia",
+    "dica": "Assembleia dos cidadãos em Atenas, responsável por votar leis, decisões políticas e assuntos da cidade."
+  },
+  {
+    "palavra": "Bulé",
+    "dica": "Conselho ateniense que preparava assuntos a serem discutidos pela assembleia dos cidadãos."
+  },
+  {
+    "palavra": "Ostracismo",
+    "dica": "Prática política ateniense que permitia afastar temporariamente cidadãos considerados perigosos para a cidade."
+  },
+  {
+    "palavra": "Péricles",
+    "dica": "Líder ateniense associado ao auge da democracia, das artes e das construções públicas em Atenas."
+  },
+  {
+    "palavra": "Partenon",
+    "dica": "Templo construído na Acrópole de Atenas, dedicado à deusa Atena."
+  },
+  {
+    "palavra": "Atena",
+    "dica": "Deusa grega da sabedoria, da estratégia e protetora da cidade de Atenas."
+  },
+  {
+    "palavra": "Zeus",
+    "dica": "Principal deus da mitologia grega, associado ao céu, aos raios e à autoridade sobre os demais deuses."
+  },
+  {
+    "palavra": "Hera",
+    "dica": "Deusa grega associada ao casamento, à família e considerada esposa de Zeus."
+  },
+  {
+    "palavra": "Apolo",
+    "dica": "Deus grego ligado à luz, à música, à poesia, à profecia e à harmonia."
+  },
+  {
+    "palavra": "Ártemis",
+    "dica": "Deusa grega associada à caça, à natureza selvagem e à proteção das jovens."
+  },
+  {
+    "palavra": "Afrodite",
+    "dica": "Deusa grega ligada ao amor, à beleza e ao desejo."
+  },
+  {
+    "palavra": "Ares",
+    "dica": "Deus grego associado à guerra violenta, ao combate e ao conflito."
+  },
+  {
+    "palavra": "Poseidon",
+    "dica": "Deus grego dos mares, dos terremotos e dos cavalos."
+  },
+  {
+    "palavra": "Hades",
+    "dica": "Deus grego do mundo dos mortos e também nome do próprio reino subterrâneo."
+  },
+  {
+    "palavra": "Olimpo",
+    "dica": "Monte considerado morada dos principais deuses da mitologia grega."
+  },
+  {
+    "palavra": "Mitologia",
+    "dica": "Conjunto de narrativas sobre deuses, heróis e explicações simbólicas do mundo na cultura grega."
+  },
+  {
+    "palavra": "Ilíada",
+    "dica": "Poema épico atribuído a Homero, centrado em episódios da Guerra de Troia."
+  },
+  {
+    "palavra": "Odisseia",
+    "dica": "Poema épico atribuído a Homero, que narra a longa viagem de retorno de Ulisses para Ítaca."
+  },
+  {
+    "palavra": "Homero",
+    "dica": "Poeta tradicionalmente associado à autoria da Ilíada e da Odisseia."
+  },
+  {
+    "palavra": "Troia",
+    "dica": "Cidade lendária ligada à guerra narrada em tradições épicas gregas."
+  },
+  {
+    "palavra": "Ulisses",
+    "dica": "Herói grego da Odisseia, conhecido por sua inteligência e por sua longa viagem de retorno para casa."
+  },
+  {
+    "palavra": "Aquiles",
+    "dica": "Herói grego da Ilíada, famoso por sua força guerreira e por sua vulnerabilidade simbólica no calcanhar."
+  },
+  {
+    "palavra": "Helenismo",
+    "dica": "Período de difusão da cultura grega pelo Oriente após as conquistas de Alexandre, o Grande."
+  },
+  {
+    "palavra": "Alexandre",
+    "dica": "Rei da Macedônia que conquistou vastos territórios e espalhou elementos da cultura grega pelo Oriente."
+  },
+  {
+    "palavra": "Macedônia",
+    "dica": "Região ao norte da Grécia associada a Filipe II e Alexandre, o Grande."
+  },
+  {
+    "palavra": "Roma",
+    "dica": "Civilização antiga surgida na Península Itálica, que passou pela monarquia, república e império."
+  },
+  {
+    "palavra": "Latinos",
+    "dica": "Povo indo-europeu que habitava a região do Lácio e esteve ligado às origens da cidade de Roma."
+  },
+  {
+    "palavra": "Lácio",
+    "dica": "Região da Península Itálica onde Roma foi fundada."
+  },
+  {
+    "palavra": "Tibre",
+    "dica": "Rio às margens do qual a cidade de Roma se desenvolveu."
+  },
+  {
+    "palavra": "Etruscos",
+    "dica": "Povo da Península Itálica que influenciou Roma em aspectos políticos, religiosos, urbanos e culturais."
+  },
+  {
+    "palavra": "Monarquia",
+    "dica": "Primeira fase política de Roma, tradicionalmente marcada pelo governo de reis."
+  },
+  {
+    "palavra": "República",
+    "dica": "Fase da história romana em que o poder político passou a ser exercido por magistrados, Senado e assembleias."
+  },
+  {
+    "palavra": "Império",
+    "dica": "Fase romana marcada pela concentração do poder nas mãos do imperador e pela grande expansão territorial."
+  },
+  {
+    "palavra": "Senado",
+    "dica": "Instituição política romana formada principalmente por membros da elite, com grande influência nas decisões públicas."
+  },
+  {
+    "palavra": "Patrícios",
+    "dica": "Grupo aristocrático romano, formado pelas famílias mais tradicionais e privilegiadas."
+  },
+  {
+    "palavra": "Plebeus",
+    "dica": "Camada social romana formada por pequenos proprietários, comerciantes, artesãos e trabalhadores livres."
+  },
+  {
+    "palavra": "Escravos",
+    "dica": "Grupo submetido à perda de liberdade, muito utilizado no trabalho doméstico, agrícola, urbano e militar em Roma."
+  },
+  {
+    "palavra": "Clientes",
+    "dica": "Indivíduos dependentes da proteção de famílias patrícias, em uma relação de troca de favores e apoio político."
+  },
+  {
+    "palavra": "Tribunos",
+    "dica": "Representantes da plebe criados para defender os interesses dos plebeus contra abusos dos patrícios."
+  },
+  {
+    "palavra": "Cônsules",
+    "dica": "Magistrados mais importantes da República Romana, eleitos em dupla para comandar o governo e o exército."
+  },
+  {
+    "palavra": "Pretores",
+    "dica": "Magistrados romanos ligados principalmente à administração da justiça."
+  },
+  {
+    "palavra": "Censores",
+    "dica": "Magistrados responsáveis pelo censo, pela classificação social dos cidadãos e pela vigilância dos costumes."
+  },
+  {
+    "palavra": "Questores",
+    "dica": "Magistrados romanos ligados à administração financeira e ao tesouro público."
+  },
+  {
+    "palavra": "Edis",
+    "dica": "Magistrados responsáveis por obras públicas, abastecimento, mercados, jogos e manutenção urbana."
+  },
+  {
+    "palavra": "Ditador",
+    "dica": "Magistrado extraordinário nomeado em situações de crise, com poderes ampliados por tempo limitado."
+  },
+  {
+    "palavra": "Comícios",
+    "dica": "Assembleias populares romanas que participavam de eleições, votações de leis e decisões políticas."
+  },
+  {
+    "palavra": "Doze Tábuas",
+    "dica": "Primeira grande codificação escrita das leis romanas, resultado das lutas entre patrícios e plebeus."
+  },
+  {
+    "palavra": "Fórum",
+    "dica": "Centro político, religioso, comercial e administrativo da cidade de Roma."
+  },
+  {
+    "palavra": "Legiões",
+    "dica": "Unidades militares romanas responsáveis pela expansão, defesa e controle dos territórios conquistados."
+  },
+  {
+    "palavra": "Cartago",
+    "dica": "Cidade fenícia do norte da África que disputou com Roma o controle do Mediterrâneo ocidental."
+  },
+  {
+    "palavra": "Guerras Púnicas",
+    "dica": "Conflitos entre Roma e Cartago que resultaram na expansão romana pelo Mediterrâneo."
+  },
+  {
+    "palavra": "Aníbal",
+    "dica": "General cartaginês famoso por atravessar os Alpes com elefantes durante a Segunda Guerra Púnica."
+  },
+  {
+    "palavra": "Mare Nostrum",
+    "dica": "Expressão latina usada pelos romanos para se referir ao Mediterrâneo, tratado como área de domínio romano."
+  },
+  {
+    "palavra": "Latifúndios",
+    "dica": "Grandes propriedades rurais romanas, muitas vezes trabalhadas por escravizados e ligadas à concentração de terras."
+  },
+  {
+    "palavra": "Gracos",
+    "dica": "Irmãos Tibério e Caio Graco, tribunos da plebe que tentaram realizar reformas agrárias em Roma."
+  },
+  {
+    "palavra": "Mário",
+    "dica": "General romano associado à profissionalização do exército e ao fortalecimento da lealdade dos soldados aos comandantes."
+  },
+  {
+    "palavra": "Sila",
+    "dica": "General romano que se tornou ditador e representou o fortalecimento da violência política na crise da República."
+  },
+  {
+    "palavra": "Hititas",
+    "dica": "Povo antigo da Anatólia, conhecido pela força militar, pelo uso do ferro e por conflitos com egípcios e outros povos do Oriente Antigo."
+  },
+  {
+    "palavra": "Anatólia",
+    "dica": "Região da atual Turquia onde se desenvolveu a civilização hitita e outros povos antigos."
+  },
+  {
+    "palavra": "Hattusa",
+    "dica": "Capital do Império Hitita, importante centro político e militar da Anatólia antiga."
+  },
+  {
+    "palavra": "Kadesh",
+    "dica": "Batalha entre hititas e egípcios, famosa por envolver Ramsés II e o rei hitita Muwatalli II."
+  },
+  {
+    "palavra": "Ferro",
+    "dica": "Metal associado ao desenvolvimento militar dos hititas, embora seu uso tenha se espalhado gradualmente pelo Oriente Antigo."
+  },
+  {
+    "palavra": "Muwatalli",
+    "dica": "Rei hitita que enfrentou Ramsés II na Batalha de Kadesh."
+  },
+  {
+    "palavra": "Núbios",
+    "dica": "Povos africanos da região da Núbia, ao sul do Egito, com forte contato comercial, militar e cultural com os egípcios."
+  },
+  {
+    "palavra": "Cuxe",
+    "dica": "Reino africano da Núbia que teve grande importância política e chegou a governar o Egito."
+  },
+  {
+    "palavra": "Napata",
+    "dica": "Cidade importante do Reino de Cuxe, associada ao poder político e religioso dos núbios."
+  },
+  {
+    "palavra": "Meroé",
+    "dica": "Cidade cuxita conhecida pela produção de ferro, pelas pirâmides núbias e por sua importância comercial."
+  },
+  {
+    "palavra": "Faraós Negros",
+    "dica": "Expressão usada para se referir aos reis cuxitas que governaram o Egito durante a XXV dinastia."
+  },
+  {
+    "palavra": "Candace",
+    "dica": "Título usado para rainhas ou mulheres governantes no Reino de Cuxe, especialmente em Meroé."
+  },
+  {
+    "palavra": "Cananeus",
+    "dica": "Povos antigos do Levante que habitaram Canaã antes e durante a formação de outras sociedades da região."
+  },
+  {
+    "palavra": "Canaã",
+    "dica": "Região do Levante associada a cananeus, hebreus, fenícios e outros povos do Oriente Antigo."
+  },
+  {
+    "palavra": "Ugarit",
+    "dica": "Cidade cananeia importante, conhecida por seus textos antigos e por registros em escrita cuneiforme alfabética."
+  },
+  {
+    "palavra": "Baal",
+    "dica": "Divindade cultuada por povos cananeus, associada à fertilidade, às tempestades e à força da natureza."
+  },
+  {
+    "palavra": "Astorete",
+    "dica": "Deusa cultuada em regiões cananeias e fenícias, associada à fertilidade, ao amor e à guerra."
+  },
+  {
+    "palavra": "Levante",
+    "dica": "Região do Mediterrâneo oriental onde viveram povos como cananeus, fenícios, hebreus e arameus."
+  },
+  {
+    "palavra": "Arameus",
+    "dica": "Povo semita do Oriente Antigo, conhecido pela difusão do idioma aramaico."
+  },
+  {
+    "palavra": "Aramaico",
+    "dica": "Idioma muito usado no Oriente Antigo, especialmente no comércio, na administração e nas comunicações imperiais."
+  },
+  {
+    "palavra": "Damasco",
+    "dica": "Cidade importante ligada aos arameus, situada em uma região estratégica do Levante."
+  },
+  {
+    "palavra": "Síria",
+    "dica": "Região histórica onde viveram diversos povos antigos, incluindo arameus, amoritas e hurritas."
+  },
+  {
+    "palavra": "Amoritas",
+    "dica": "Povo semita do Oriente Antigo que teve presença importante na Mesopotâmia e em regiões da Síria."
+  },
+  {
+    "palavra": "Hamurábi",
+    "dica": "Rei de origem amorita que governou a Babilônia e ficou famoso por seu código de leis."
+  },
+  {
+    "palavra": "Mari",
+    "dica": "Cidade antiga do Eufrates ligada aos amoritas e conhecida por arquivos administrativos e diplomáticos."
+  },
+  {
+    "palavra": "Hurritas",
+    "dica": "Povo antigo do norte da Mesopotâmia e da Síria, com influência cultural e política no Oriente Antigo."
+  },
+  {
+    "palavra": "Mitani",
+    "dica": "Reino ligado aos hurritas, importante no equilíbrio político entre Egito, hititas e povos da Mesopotâmia."
+  },
+  {
+    "palavra": "Washukanni",
+    "dica": "Capital do Reino de Mitani, ainda não identificada com absoluta certeza pela arqueologia."
+  },
+  {
+    "palavra": "Minóicos",
+    "dica": "Civilização antiga da ilha de Creta, conhecida por palácios, comércio marítimo e arte sofisticada."
+  },
+  {
+    "palavra": "Creta",
+    "dica": "Ilha do mar Egeu onde se desenvolveu a civilização minoica."
+  },
+  {
+    "palavra": "Cnossos",
+    "dica": "Principal centro palaciano da civilização minoica, associado ao mito do labirinto e do Minotauro."
+  },
+  {
+    "palavra": "Minotauro",
+    "dica": "Criatura da mitologia grega associada ao labirinto de Creta e ao imaginário sobre a civilização minoica."
+  },
+  {
+    "palavra": "Labirinto",
+    "dica": "Construção mítica associada ao palácio de Cnossos e à lenda do Minotauro."
+  },
+  {
+    "palavra": "Micênicos",
+    "dica": "Civilização grega da Idade do Bronze, marcada por palácios fortificados, aristocracia guerreira e escrita Linear B."
+  },
+  {
+    "palavra": "Micenas",
+    "dica": "Cidade fortificada que deu nome à civilização micênica, associada ao poder militar e palaciano."
+  },
+  {
+    "palavra": "Linear B",
+    "dica": "Sistema de escrita usado pelos micênicos para registrar informações administrativas em uma forma antiga do grego."
+  },
+  {
+    "palavra": "Agamênon",
+    "dica": "Rei lendário de Micenas, associado à Guerra de Troia nas tradições épicas gregas."
+  },
+  {
+    "palavra": "Aqueus",
+    "dica": "Nome usado em tradições gregas para se referir a grupos ligados ao mundo micênico."
+  },
+  {
+    "palavra": "Etruscos",
+    "dica": "Povo da Península Itálica que influenciou Roma em aspectos políticos, religiosos, urbanos e culturais."
+  },
+  {
+    "palavra": "Etrúria",
+    "dica": "Região da Itália antiga habitada pelos etruscos, situada principalmente ao norte de Roma."
+  },
+  {
+    "palavra": "Tarquínio",
+    "dica": "Nome associado aos reis etruscos de Roma, especialmente Tarquínio Prisco e Tarquínio, o Soberbo."
+  },
+  {
+    "palavra": "Áugures",
+    "dica": "Sacerdotes que interpretavam sinais divinos, prática religiosa influenciada pelos etruscos e adotada pelos romanos."
+  },
+  {
+    "palavra": "Cartagineses",
+    "dica": "Povo de Cartago, cidade fundada por fenícios no norte da África e grande rival de Roma no Mediterrâneo."
+  },
+  {
+    "palavra": "Cartago",
+    "dica": "Cidade do norte da África que se tornou uma potência comercial e militar no Mediterrâneo antigo."
+  },
+  {
+    "palavra": "Aníbal",
+    "dica": "General cartaginês famoso por atravessar os Alpes com elefantes durante a Segunda Guerra Púnica."
+  },
+  {
+    "palavra": "Púnicas",
+    "dica": "Guerras entre Roma e Cartago pelo domínio do Mediterrâneo ocidental."
+  },
+  {
+    "palavra": "Alpes",
+    "dica": "Cordilheira atravessada por Aníbal em sua campanha contra Roma durante a Segunda Guerra Púnica."
+  },
+  {
+    "palavra": "Cipião",
+    "dica": "General romano que derrotou Aníbal na Batalha de Zama, encerrando a Segunda Guerra Púnica."
+  },
+  {
+    "palavra": "China",
+    "dica": "Civilização antiga do Extremo Oriente, marcada pelo desenvolvimento de dinastias, escrita, agricultura, filosofia e organização estatal."
+  },
+  {
+    "palavra": "Huang He",
+    "dica": "Rio Amarelo, uma das áreas centrais para o desenvolvimento das primeiras civilizações chinesas."
+  },
+  {
+    "palavra": "Yangtzé",
+    "dica": "Grande rio chinês que também favoreceu agricultura, povoamento e desenvolvimento de sociedades antigas."
+  },
+  {
+    "palavra": "Shang",
+    "dica": "Dinastia chinesa antiga associada ao uso do bronze, à escrita em ossos oraculares e ao poder aristocrático."
+  },
+  {
+    "palavra": "Zhou",
+    "dica": "Dinastia chinesa que sucedeu os Shang e difundiu a ideia do Mandato do Céu."
+  },
+  {
+    "palavra": "Mandato do Céu",
+    "dica": "Ideia política chinesa segundo a qual o governante recebia legitimidade do Céu, mas poderia perdê-la se governasse mal."
+  },
+  {
+    "palavra": "Qin",
+    "dica": "Dinastia que unificou a China em 221 a.C., centralizando o poder e fortalecendo a administração imperial."
+  },
+  {
+    "palavra": "Shi Huangdi",
+    "dica": "Primeiro imperador da China unificada, ligado à dinastia Qin, à centralização política e ao exército de terracota."
+  },
+  {
+    "palavra": "Han",
+    "dica": "Dinastia chinesa que consolidou instituições imperiais, ampliou contatos comerciais e fortaleceu a burocracia estatal."
+  },
+  {
+    "palavra": "Confúcio",
+    "dica": "Pensador chinês que defendia ordem social, respeito às hierarquias, virtude moral e bom governo."
+  },
+  {
+    "palavra": "Confucionismo",
+    "dica": "Tradição filosófica chinesa baseada nos ensinamentos de Confúcio, muito influente na política e na educação."
+  },
+  {
+    "palavra": "Lao-Tsé",
+    "dica": "Pensador associado ao taoismo, tradição filosófica chinesa centrada no Tao e na harmonia com a natureza."
+  },
+  {
+    "palavra": "Taoismo",
+    "dica": "Tradição filosófica e religiosa chinesa que valoriza o Tao, a simplicidade, o equilíbrio e a harmonia natural."
+  },
+  {
+    "palavra": "Legalismo",
+    "dica": "Corrente política chinesa que defendia leis rígidas, punições severas e forte controle do Estado."
+  },
+  {
+    "palavra": "Terracota",
+    "dica": "Exército de esculturas de soldados enterrado junto ao primeiro imperador Qin para acompanhá-lo no além."
+  },
+  {
+    "palavra": "Muralha",
+    "dica": "Sistema defensivo chinês ampliado ao longo de diferentes períodos para proteger fronteiras contra invasões."
+  },
+  {
+    "palavra": "Seda",
+    "dica": "Produto de luxo chinês muito valorizado no comércio antigo e associado às rotas comerciais entre Oriente e Ocidente."
+  },
+  {
+    "palavra": "Rota da Seda",
+    "dica": "Rede de rotas comerciais que conectava a China a regiões da Ásia Central, Oriente Médio e Mediterrâneo."
+  },
+  {
+    "palavra": "Indo",
+    "dica": "Rio associado ao desenvolvimento da Civilização do Vale do Indo, uma das mais antigas do sul da Ásia."
+  },
+  {
+    "palavra": "Harappa",
+    "dica": "Cidade importante da Civilização do Vale do Indo, conhecida por seu planejamento urbano."
+  },
+  {
+    "palavra": "Mohenjo-Daro",
+    "dica": "Cidade da Civilização do Vale do Indo, famosa por ruas planejadas, drenagem e organização urbana."
+  },
+  {
+    "palavra": "Vedas",
+    "dica": "Textos sagrados antigos da tradição indiana, associados ao período védico e à religião dos povos indo-arianos."
+  },
+  {
+    "palavra": "Arianos",
+    "dica": "Grupos indo-arianos que se estabeleceram no norte da Índia e influenciaram a cultura védica."
+  },
+  {
+    "palavra": "Sânscrito",
+    "dica": "Língua clássica da Índia antiga, usada em textos religiosos, literários e filosóficos."
+  },
+  {
+    "palavra": "Castas",
+    "dica": "Sistema social hierarquizado associado à Índia antiga, com divisões como brâmanes, xátrias, vaixás e sudras."
+  },
+  {
+    "palavra": "Brâmanes",
+    "dica": "Grupo sacerdotal de maior prestígio no sistema de castas da tradição indiana antiga."
+  },
+  {
+    "palavra": "Hinduísmo",
+    "dica": "Tradição religiosa indiana formada por diversas crenças, rituais e textos, com raízes antigas no período védico."
+  },
+  {
+    "palavra": "Budismo",
+    "dica": "Religião surgida na Índia antiga a partir dos ensinamentos de Sidarta Gautama, o Buda."
+  },
+  {
+    "palavra": "Buda",
+    "dica": "Título de Sidarta Gautama, fundador do budismo, associado ao despertar espiritual e ao caminho contra o sofrimento."
+  },
+  {
+    "palavra": "Máuria",
+    "dica": "Império indiano antigo que unificou grande parte do subcontinente, especialmente sob Chandragupta e Ashoka."
+  },
+  {
+    "palavra": "Ashoka",
+    "dica": "Imperador mauria conhecido por apoiar a difusão do budismo após a violenta Guerra de Kalinga."
+  },
+  {
+    "palavra": "Gupta",
+    "dica": "Dinastia indiana associada a um período de florescimento cultural, científico, artístico e religioso."
+  },
+  {
+    "palavra": "Japão",
+    "dica": "Arquipélago do Extremo Oriente cuja Antiguidade foi marcada por culturas arqueológicas, chefaturas e formação inicial do Estado."
+  },
+  {
+    "palavra": "Jomon",
+    "dica": "Período antigo do Japão conhecido por comunidades de caçadores-coletores, cerâmica decorada e vida sedentária parcial."
+  },
+  {
+    "palavra": "Yayoi",
+    "dica": "Período japonês associado à introdução do cultivo de arroz, metalurgia e maior estratificação social."
+  },
+  {
+    "palavra": "Kofun",
+    "dica": "Período japonês marcado por grandes túmulos funerários e pelo fortalecimento de elites guerreiras e políticas."
+  },
+  {
+    "palavra": "Yamato",
+    "dica": "Centro político antigo do Japão associado à formação inicial do Estado japonês e da autoridade imperial."
+  },
+  {
+    "palavra": "Xintoísmo",
+    "dica": "Tradição religiosa japonesa ligada ao culto aos kami, forças ou divindades associadas à natureza e aos ancestrais."
+  },
+  {
+    "palavra": "Kami",
+    "dica": "Espíritos, forças sagradas ou divindades cultuadas no xintoísmo japonês."
+  },
+  {
+    "palavra": "Amaterasu",
+    "dica": "Deusa solar do xintoísmo, associada à origem mítica da linhagem imperial japonesa."
+  },
+  {
+    "palavra": "Arroz",
+    "dica": "Cultivo que ganhou grande importância no Japão antigo durante o período Yayoi, transformando a economia e a sociedade."
+  },
+  {
+    "palavra": "Cerâmica",
+    "dica": "Produção material muito importante no período Jomon, especialmente vasos decorados com marcas de corda."
+  },
+  {
+    "palavra": "Túmulo",
+    "dica": "Grande estrutura funerária associada ao período Kofun e às elites políticas do Japão antigo."
+  },
+  {
+    "palavra": "Imperador",
+    "dica": "Autoridade central ligada à formação política do Japão antigo e à tradição de descendência mítica de Amaterasu."
+  },
+  {
+    "palavra": "Wa",
+    "dica": "Nome usado em fontes chinesas antigas para se referir a povos ou comunidades do arquipélago japonês."
+  },
+  {
+    "palavra": "Nara",
+    "dica": "Antiga capital japonesa do século VIII, associada à consolidação do Estado, do budismo e da administração imperial."
+  },
+  {
+    "palavra": "Heian",
+    "dica": "Período posterior da história antiga japonesa, marcado por cultura aristocrática e fortalecimento da corte imperial."
+  },
+  {
+    "palavra": "Medos",
+    "dica": "Povo iraniano antigo que viveu na região da Média e teve papel importante antes da ascensão dos persas."
+  },
+  {
+    "palavra": "Média",
+    "dica": "Região montanhosa do planalto iraniano associada aos medos e à formação de seu poder político."
+  },
+  {
+    "palavra": "Ecbátana",
+    "dica": "Capital tradicional dos medos, depois usada também pelos persas como importante centro administrativo."
+  },
+  {
+    "palavra": "Ciáxares",
+    "dica": "Rei medo associado ao fortalecimento militar dos medos e à participação na queda do Império Assírio."
+  },
+  {
+    "palavra": "Astíages",
+    "dica": "Último rei medo, derrotado por Ciro, o Grande, evento que abriu caminho para a ascensão persa."
+  },
+  {
+    "palavra": "Iranianos",
+    "dica": "Grupo de povos indo-europeus do planalto iraniano, do qual faziam parte medos e persas."
+  },
+  {
+    "palavra": "Lídios",
+    "dica": "Povo antigo da Anatólia ocidental, conhecido pelo comércio e pelo uso de moedas metálicas."
+  },
+  {
+    "palavra": "Lídia",
+    "dica": "Região da Anatólia onde se desenvolveu o reino dos lídios."
+  },
+  {
+    "palavra": "Sardes",
+    "dica": "Capital da Lídia, importante centro comercial e político da Anatólia antiga."
+  },
+  {
+    "palavra": "Creso",
+    "dica": "Rei lídio famoso por sua riqueza e por ter sido derrotado por Ciro, o Grande."
+  },
+  {
+    "palavra": "Moeda",
+    "dica": "Instrumento econômico associado aos lídios, frequentemente lembrados pelo uso inicial de moedas metálicas."
+  },
+  {
+    "palavra": "Electro",
+    "dica": "Liga natural de ouro e prata usada na fabricação das primeiras moedas lídias."
+  }
+]
