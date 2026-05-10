@@ -38,8 +38,10 @@ async function loadWords() {
 
     startGame();
   } catch (error) {
-    hintElement.textContent = "Erro ao carregar as palavras. Verifique se o arquivo palavras.json está na mesma pasta.";
+    hintElement.textContent =
+      "Erro ao carregar as palavras. Verifique se o arquivo palavras.json está na mesma pasta e se você abriu o projeto com Live Server.";
     scrambledWordElement.textContent = "ERRO";
+
     console.error(error);
   }
 }
@@ -47,6 +49,9 @@ async function loadWords() {
 function startGame() {
   score = 0;
   isGameOver = false;
+
+  answerInput.disabled = false;
+  answerInput.value = "";
 
   scoreElement.textContent = score;
   gameOverModal.classList.add("hidden");
@@ -68,6 +73,7 @@ function nextRound() {
   hintElement.textContent = currentWord.dica;
   scrambledWordElement.textContent = scrambled;
 
+  answerInput.disabled = false;
   answerInput.value = "";
   answerInput.focus();
 
@@ -131,13 +137,15 @@ function checkAnswer(event) {
 
     showFeedback(`Correto! +${roundPoints} pontos.`, "success");
 
+    clearInterval(timerInterval);
+
     setTimeout(() => {
       if (!isGameOver) {
         nextRound();
       }
     }, 700);
   } else {
-    showFeedback("Ainda não. Tente novamente antes do tempo acabar.", "error");
+    showFeedback("Errado. Tente novamente antes do tempo acabar.", "error");
     answerInput.select();
   }
 }
@@ -150,14 +158,22 @@ function calculatePoints() {
 }
 
 function endGame() {
+  if (isGameOver) {
+    return;
+  }
+
   clearInterval(timerInterval);
 
   isGameOver = true;
+  answerInput.disabled = true;
 
-  finalScoreElement.textContent = score;
-  gameOverModal.classList.remove("hidden");
+  showFeedback(`Tempo esgotado. A resposta certa era: ${currentWord.palavra}.`, "error");
 
-  answerInput.blur();
+  setTimeout(() => {
+    finalScoreElement.textContent = score;
+    gameOverModal.classList.remove("hidden");
+    answerInput.blur();
+  }, 1500);
 }
 
 function showFeedback(message, type) {
@@ -197,10 +213,13 @@ function shuffleArray(array) {
 
 function normalizeText(text) {
   return text
+    .toString()
     .toLowerCase()
     .trim()
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ç/g, "c")
+    .replace(/[^a-z0-9]/g, "");
 }
 
 answerForm.addEventListener("submit", checkAnswer);
