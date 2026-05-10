@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Palavras Embaralhadas</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="app">
+
+    <section class="game-card">
+
+      <header class="game-header">
+        <div>
+          <p class="eyebrow">Jogo de palavras</p>
+          <h1>Palavra embaralhada</h1>
+        </div>
+
+        <div class="score-box">
+          <span>Pontos</span>
+          <strong id="score">0</strong>
+        </div>
+      </header>
+
+      <section class="timer-area">
+        <div class="timer-info">
+          <span>Tempo restante</span>
+          <strong id="timer">64s</strong>
+        </div>
+
+        <div class="timer-bar">
+          <div id="timerFill" class="timer-fill"></div>
+        </div>
+      </section>
+
+      <section class="word-area">
+        <p class="hint-label">Dica</p>
+        <p id="hint" class="hint">Carregando dica...</p>
+
+        <div id="scrambledWord" class="scrambled-word">
+          ------
+        </div>
+      </section>
+
+      <form id="answerForm" class="answer-area">
+        <label for="answerInput">Digite a palavra correta</label>
+
+        <div class="input-group">
+          <input
+            id="answerInput"
+            type="text"
+            autocomplete="off"
+            placeholder="Sua resposta..."
+          />
+
+          <button type="submit">Responder</button>
+        </div>
+
+        <p id="feedback" class="feedback"></p>
+      </form>
+
+      <button id="restartButton" class="secondary-button" type="button">
+        Reiniciar jogo
+      </button>
+
+    </section>
+
+  </main>
+
+  <div id="gameOverModal" class="modal hidden">
+    <div class="modal-content">
+      <p class="modal-eyebrow">Fim de jogo</p>
+      <h2>Você perdeu!</h2>
+
+      <p class="modal-text">
+        Sua pontuação final foi:
+      </p>
+
+      <strong id="finalScore" class="final-score">0</strong>
+
+      <button id="playAgainButton" type="button">
+        Jogar novamente
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
