@@ -5,8 +5,7 @@
 }
 
 :root {
-  --bg-primary: #050816;
-  --glass: rgba(255, 255, 255, 0.09);
+  --glass: rgba(255, 255, 255, 0.1);
   --glass-border: rgba(255, 255, 255, 0.18);
   --text-primary: #f8fafc;
   --text-secondary: #cbd5e1;
@@ -15,13 +14,14 @@
   --accent-light: #a78bfa;
   --danger: #fb7185;
   --success: #34d399;
-  --shadow: 0 18px 60px rgba(0, 0, 0, 0.5);
+  --warning: #fbbf24;
+  --shadow: 0 22px 70px rgba(0, 0, 0, 0.55);
 }
 
 html,
 body {
   width: 100%;
-  min-height: 100%;
+  height: 100%;
 }
 
 body {
@@ -29,32 +29,38 @@ body {
   min-height: 100dvh;
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(124, 58, 237, 0.32), transparent 34%),
-    radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.24), transparent 32%),
+    radial-gradient(circle at top left, rgba(124, 58, 237, 0.35), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.25), transparent 32%),
     linear-gradient(135deg, #020617, #0f172a);
   color: var(--text-primary);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 12px;
   overflow: hidden;
 }
 
 .app {
   width: 100%;
-  max-width: 500px;
+  max-width: 540px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .game-card {
   width: 100%;
-  max-height: calc(100dvh - 20px);
-  padding: 16px;
-  border-radius: 26px;
+  height: calc(100dvh - 24px);
+  max-height: 780px;
+  padding: 20px;
+  border-radius: 30px;
   background: var(--glass);
   border: 1px solid var(--glass-border);
   box-shadow: var(--shadow);
   backdrop-filter: blur(28px);
   -webkit-backdrop-filter: blur(28px);
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
@@ -62,70 +68,73 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 12px;
-  margin-bottom: 14px;
+  gap: 14px;
+  margin-bottom: 18px;
+  flex-shrink: 0;
 }
 
 .eyebrow,
 .modal-eyebrow {
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--accent-light);
-  font-weight: 700;
-  margin-bottom: 4px;
+  font-weight: 800;
+  margin-bottom: 5px;
 }
 
 h1 {
-  font-size: clamp(1.35rem, 7vw, 1.9rem);
-  line-height: 1;
-  letter-spacing: -0.04em;
+  font-size: clamp(1.65rem, 7vw, 2.25rem);
+  line-height: 1.02;
+  letter-spacing: -0.045em;
 }
 
 .score-box {
-  min-width: 76px;
-  padding: 9px 10px;
-  border-radius: 18px;
+  min-width: 84px;
+  padding: 11px 12px;
+  border-radius: 22px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  flex-shrink: 0;
 }
 
 .score-box span {
   display: block;
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 
 .score-box strong {
-  font-size: 1.15rem;
+  font-size: 1.35rem;
 }
 
 .timer-area {
-  margin-bottom: 14px;
+  margin-bottom: 18px;
+  flex-shrink: 0;
 }
 
 .timer-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   color: var(--text-secondary);
-  font-size: 0.82rem;
+  font-size: 0.9rem;
 }
 
 .timer-info strong {
   color: var(--text-primary);
-  font-size: 0.95rem;
+  font-size: 1.08rem;
 }
 
 .timer-bar {
   width: 100%;
-  height: 8px;
+  height: 10px;
   border-radius: 999px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .timer-fill {
@@ -137,76 +146,85 @@ h1 {
 }
 
 .word-area {
-  padding: 14px;
-  border-radius: 22px;
-  background: rgba(15, 23, 42, 0.48);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  margin-bottom: 14px;
+  padding: 18px;
+  border-radius: 26px;
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  margin-bottom: 18px;
+  flex: 1;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hint-label {
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--text-muted);
-  margin-bottom: 5px;
-  font-weight: 700;
+  margin-bottom: 7px;
+  font-weight: 800;
 }
 
 .hint {
   color: var(--text-secondary);
-  line-height: 1.35;
-  font-size: 0.86rem;
-  margin-bottom: 12px;
+  line-height: 1.38;
+  font-size: clamp(0.9rem, 3.4vw, 1rem);
+  margin-bottom: 16px;
 
   display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
 .scrambled-word {
-  min-height: 58px;
-  padding: 12px;
-  border-radius: 18px;
+  min-height: 82px;
+  padding: 16px;
+  border-radius: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: clamp(1.35rem, 8vw, 2.25rem);
-  font-weight: 800;
-  letter-spacing: 0.12em;
+  font-size: clamp(1.85rem, 9vw, 3rem);
+  font-weight: 900;
+  letter-spacing: 0.13em;
   text-transform: uppercase;
   word-break: break-word;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.answer-area {
+  flex-shrink: 0;
 }
 
 .answer-area label {
   display: block;
   color: var(--text-secondary);
-  font-size: 0.8rem;
-  margin-bottom: 7px;
+  font-size: 0.88rem;
+  margin-bottom: 9px;
 }
 
 .input-group {
   display: flex;
-  gap: 8px;
+  gap: 10px;
 }
 
 input {
   flex: 1;
   min-width: 0;
-  height: 46px;
-  padding: 0 13px;
+  height: 52px;
+  padding: 0 16px;
   border: none;
   outline: none;
-  border-radius: 16px;
+  border-radius: 18px;
   color: var(--text-primary);
-  font-size: 0.95rem;
+  font-size: 1rem;
   background: rgba(255, 255, 255, 0.11);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 input::placeholder {
@@ -215,19 +233,19 @@ input::placeholder {
 
 input:focus {
   border-color: rgba(167, 139, 250, 0.9);
-  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.22);
 }
 
 button {
-  height: 46px;
-  padding: 0 14px;
+  height: 52px;
+  padding: 0 18px;
   border: none;
-  border-radius: 16px;
+  border-radius: 18px;
   color: white;
-  font-weight: 800;
+  font-weight: 850;
   cursor: pointer;
   background: linear-gradient(135deg, var(--accent), #2563eb);
-  box-shadow: 0 12px 26px rgba(37, 99, 235, 0.22);
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.25);
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
@@ -242,17 +260,19 @@ button:active {
 
 .secondary-button {
   width: 100%;
-  margin-top: 10px;
-  height: 42px;
+  margin-top: 12px;
+  height: 48px;
   background: rgba(255, 255, 255, 0.09);
-  border: 1px solid rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   box-shadow: none;
+  flex-shrink: 0;
 }
 
 .feedback {
-  min-height: 20px;
-  margin-top: 8px;
-  font-size: 0.82rem;
+  min-height: 42px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  line-height: 1.3;
   color: var(--text-muted);
 }
 
@@ -283,32 +303,32 @@ button:active {
 
 .modal-content {
   width: 100%;
-  max-width: 350px;
-  padding: 24px;
-  border-radius: 28px;
+  max-width: 380px;
+  padding: 28px;
+  border-radius: 32px;
   text-align: center;
-  background: rgba(15, 23, 42, 0.86);
+  background: rgba(15, 23, 42, 0.88);
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: var(--shadow);
   animation: popIn 0.25s ease;
 }
 
 .modal-content h2 {
-  font-size: 1.7rem;
-  margin-bottom: 8px;
+  font-size: 1.95rem;
+  margin-bottom: 9px;
   letter-spacing: -0.04em;
 }
 
 .modal-text {
   color: var(--text-secondary);
   margin-bottom: 8px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 .final-score {
   display: block;
-  font-size: 2.8rem;
-  margin: 8px 0 18px;
+  font-size: 3.2rem;
+  margin: 10px 0 20px;
   color: var(--accent-light);
 }
 
@@ -328,42 +348,120 @@ button:active {
   }
 }
 
+/* Celulares comuns */
 @media (max-width: 460px) {
   body {
-    padding: 8px;
+    padding: 10px;
   }
 
   .game-card {
-    padding: 14px;
-    border-radius: 24px;
+    height: calc(100dvh - 20px);
+    padding: 17px;
+    border-radius: 28px;
   }
 
   .game-header {
-    margin-bottom: 12px;
-  }
-
-  .score-box {
-    min-width: 68px;
-    padding: 8px;
+    margin-bottom: 15px;
   }
 
   h1 {
-    font-size: 1.45rem;
+    font-size: 1.75rem;
+  }
+
+  .score-box {
+    min-width: 78px;
+    padding: 10px;
+  }
+
+  .timer-area {
+    margin-bottom: 15px;
   }
 
   .word-area {
-    padding: 12px;
+    padding: 16px;
+    margin-bottom: 15px;
+    min-height: 220px;
   }
 
   .hint {
+    font-size: 0.92rem;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+
+  .scrambled-word {
+    min-height: 76px;
+    font-size: 2rem;
+  }
+
+  input,
+  button {
+    height: 50px;
+  }
+
+  .secondary-button {
+    height: 46px;
+  }
+}
+
+/* Celulares baixos */
+@media (max-height: 720px) {
+  .game-card {
+    padding: 14px;
+  }
+
+  .game-header {
+    margin-bottom: 11px;
+  }
+
+  h1 {
+    font-size: 1.55rem;
+  }
+
+  .eyebrow {
+    font-size: 0.65rem;
+    margin-bottom: 3px;
+  }
+
+  .score-box {
+    padding: 8px 10px;
+  }
+
+  .score-box strong {
+    font-size: 1.18rem;
+  }
+
+  .timer-area {
+    margin-bottom: 11px;
+  }
+
+  .timer-info {
     font-size: 0.82rem;
+    margin-bottom: 6px;
+  }
+
+  .word-area {
+    padding: 14px;
+    margin-bottom: 11px;
+    min-height: 190px;
+  }
+
+  .hint {
+    font-size: 0.84rem;
+    margin-bottom: 11px;
     -webkit-line-clamp: 3;
     line-clamp: 3;
   }
 
   .scrambled-word {
-    min-height: 52px;
-    font-size: 1.45rem;
+    min-height: 64px;
+    padding: 12px;
+    font-size: 1.65rem;
+  }
+
+  .answer-area label {
+    font-size: 0.8rem;
+    margin-bottom: 6px;
   }
 
   input,
@@ -373,25 +471,47 @@ button:active {
 
   .secondary-button {
     height: 40px;
+    margin-top: 8px;
+  }
+
+  .feedback {
+    min-height: 34px;
+    margin-top: 7px;
+    font-size: 0.8rem;
   }
 }
 
-@media (max-height: 690px) {
+/* Celulares muito baixos */
+@media (max-height: 640px) {
   .game-card {
     padding: 12px;
+    border-radius: 24px;
   }
 
   .game-header {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
-  .timer-area,
-  .word-area {
-    margin-bottom: 10px;
+  h1 {
+    font-size: 1.38rem;
+  }
+
+  .score-box span {
+    font-size: 0.62rem;
+  }
+
+  .score-box strong {
+    font-size: 1.05rem;
+  }
+
+  .timer-area {
+    margin-bottom: 8px;
   }
 
   .word-area {
-    padding: 10px;
+    padding: 11px;
+    margin-bottom: 8px;
+    min-height: 170px;
   }
 
   .hint {
@@ -402,23 +522,23 @@ button:active {
   }
 
   .scrambled-word {
-    min-height: 46px;
+    min-height: 54px;
+    font-size: 1.42rem;
     padding: 8px;
-    font-size: 1.25rem;
   }
 
   input,
   button {
     height: 40px;
+    border-radius: 14px;
   }
 
   .secondary-button {
-    height: 38px;
-    margin-top: 8px;
+    height: 36px;
   }
 
   .feedback {
-    margin-top: 6px;
-    font-size: 0.78rem;
+    min-height: 30px;
+    font-size: 0.76rem;
   }
 }
