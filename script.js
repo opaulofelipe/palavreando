@@ -167,13 +167,22 @@ function endGame() {
   isGameOver = true;
   answerInput.disabled = true;
 
-  showFeedback(`Tempo esgotado. A resposta certa era: ${currentWord.palavra}.`, "error");
+  const respostaCorreta = currentWord.palavra;
 
-  setTimeout(() => {
-    finalScoreElement.textContent = score;
-    gameOverModal.classList.remove("hidden");
-    answerInput.blur();
-  }, 1500);
+  showFeedback(`Tempo esgotado. A resposta certa era: ${respostaCorreta}.`, "error");
+
+  finalScoreElement.textContent = score;
+
+  const modalText = document.querySelector(".modal-text");
+
+  modalText.innerHTML = `
+    A resposta certa era:<br>
+    <strong class="correct-answer">${respostaCorreta}</strong><br><br>
+    Sua pontuação final foi:
+  `;
+
+  gameOverModal.classList.remove("hidden");
+  answerInput.blur();
 }
 
 function showFeedback(message, type) {
