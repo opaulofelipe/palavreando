@@ -542,3 +542,10 @@ button:active {
     font-size: 0.76rem;
   }
 }
+
+.correct-answer {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 1.35rem;
+  color: #a78bfa;
+}
