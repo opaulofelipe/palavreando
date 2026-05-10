@@ -6,7 +6,6 @@
 
 :root {
   --bg-primary: #050816;
-  --bg-secondary: #0f172a;
   --glass: rgba(255, 255, 255, 0.09);
   --glass-border: rgba(255, 255, 255, 0.18);
   --text-primary: #f8fafc;
@@ -16,12 +15,18 @@
   --accent-light: #a78bfa;
   --danger: #fb7185;
   --success: #34d399;
-  --warning: #fbbf24;
-  --shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+  --shadow: 0 18px 60px rgba(0, 0, 0, 0.5);
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
 }
 
 body {
   min-height: 100vh;
+  min-height: 100dvh;
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
   background:
     radial-gradient(circle at top left, rgba(124, 58, 237, 0.32), transparent 34%),
@@ -31,53 +36,56 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
+  overflow: hidden;
 }
 
 .app {
   width: 100%;
-  max-width: 520px;
+  max-width: 500px;
 }
 
 .game-card {
   width: 100%;
-  padding: 24px;
-  border-radius: 32px;
+  max-height: calc(100dvh - 20px);
+  padding: 16px;
+  border-radius: 26px;
   background: var(--glass);
   border: 1px solid var(--glass-border);
   box-shadow: var(--shadow);
   backdrop-filter: blur(28px);
   -webkit-backdrop-filter: blur(28px);
+  overflow: hidden;
 }
 
 .game-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 18px;
-  margin-bottom: 28px;
+  gap: 12px;
+  margin-bottom: 14px;
 }
 
 .eyebrow,
 .modal-eyebrow {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--accent-light);
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 h1 {
-  font-size: clamp(1.75rem, 8vw, 2.4rem);
-  line-height: 1.05;
+  font-size: clamp(1.35rem, 7vw, 1.9rem);
+  line-height: 1;
   letter-spacing: -0.04em;
 }
 
 .score-box {
-  min-width: 86px;
-  padding: 12px 14px;
-  border-radius: 22px;
+  min-width: 76px;
+  padding: 9px 10px;
+  border-radius: 18px;
   text-align: center;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -85,35 +93,36 @@ h1 {
 
 .score-box span {
   display: block;
-  font-size: 0.72rem;
+  font-size: 0.65rem;
   color: var(--text-muted);
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .score-box strong {
-  font-size: 1.35rem;
+  font-size: 1.15rem;
 }
 
 .timer-area {
-  margin-bottom: 28px;
+  margin-bottom: 14px;
 }
 
 .timer-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   color: var(--text-secondary);
+  font-size: 0.82rem;
 }
 
 .timer-info strong {
   color: var(--text-primary);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
 }
 
 .timer-bar {
   width: 100%;
-  height: 12px;
+  height: 8px;
   border-radius: 999px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.1);
@@ -128,40 +137,46 @@ h1 {
 }
 
 .word-area {
-  padding: 22px;
-  border-radius: 28px;
+  padding: 14px;
+  border-radius: 22px;
   background: rgba(15, 23, 42, 0.48);
   border: 1px solid rgba(255, 255, 255, 0.12);
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 
 .hint-label {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--text-muted);
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   font-weight: 700;
 }
 
 .hint {
   color: var(--text-secondary);
-  line-height: 1.45;
-  font-size: 0.98rem;
-  margin-bottom: 20px;
+  line-height: 1.35;
+  font-size: 0.86rem;
+  margin-bottom: 12px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .scrambled-word {
-  min-height: 74px;
-  padding: 18px;
-  border-radius: 22px;
+  min-height: 58px;
+  padding: 12px;
+  border-radius: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: clamp(1.8rem, 10vw, 3rem);
+  font-size: clamp(1.35rem, 8vw, 2.25rem);
   font-weight: 800;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   word-break: break-word;
   background: rgba(255, 255, 255, 0.08);
@@ -171,25 +186,25 @@ h1 {
 .answer-area label {
   display: block;
   color: var(--text-secondary);
-  font-size: 0.9rem;
-  margin-bottom: 10px;
+  font-size: 0.8rem;
+  margin-bottom: 7px;
 }
 
 .input-group {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 input {
   flex: 1;
   min-width: 0;
-  height: 54px;
-  padding: 0 16px;
+  height: 46px;
+  padding: 0 13px;
   border: none;
   outline: none;
-  border-radius: 18px;
+  border-radius: 16px;
   color: var(--text-primary);
-  font-size: 1rem;
+  font-size: 0.95rem;
   background: rgba(255, 255, 255, 0.11);
   border: 1px solid rgba(255, 255, 255, 0.14);
 }
@@ -200,19 +215,19 @@ input::placeholder {
 
 input:focus {
   border-color: rgba(167, 139, 250, 0.9);
-  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.22);
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
 }
 
 button {
-  height: 54px;
-  padding: 0 18px;
+  height: 46px;
+  padding: 0 14px;
   border: none;
-  border-radius: 18px;
+  border-radius: 16px;
   color: white;
   font-weight: 800;
   cursor: pointer;
   background: linear-gradient(135deg, var(--accent), #2563eb);
-  box-shadow: 0 16px 32px rgba(37, 99, 235, 0.26);
+  box-shadow: 0 12px 26px rgba(37, 99, 235, 0.22);
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
@@ -227,16 +242,17 @@ button:active {
 
 .secondary-button {
   width: 100%;
-  margin-top: 18px;
+  margin-top: 10px;
+  height: 42px;
   background: rgba(255, 255, 255, 0.09);
   border: 1px solid rgba(255, 255, 255, 0.13);
   box-shadow: none;
 }
 
 .feedback {
-  min-height: 24px;
-  margin-top: 12px;
-  font-size: 0.95rem;
+  min-height: 20px;
+  margin-top: 8px;
+  font-size: 0.82rem;
   color: var(--text-muted);
 }
 
@@ -251,7 +267,7 @@ button:active {
 .modal {
   position: fixed;
   inset: 0;
-  padding: 20px;
+  padding: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,31 +283,32 @@ button:active {
 
 .modal-content {
   width: 100%;
-  max-width: 390px;
-  padding: 30px;
-  border-radius: 32px;
+  max-width: 350px;
+  padding: 24px;
+  border-radius: 28px;
   text-align: center;
-  background: rgba(15, 23, 42, 0.82);
+  background: rgba(15, 23, 42, 0.86);
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: var(--shadow);
   animation: popIn 0.25s ease;
 }
 
 .modal-content h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-size: 1.7rem;
+  margin-bottom: 8px;
   letter-spacing: -0.04em;
 }
 
 .modal-text {
   color: var(--text-secondary);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
 }
 
 .final-score {
   display: block;
-  font-size: 3.4rem;
-  margin: 12px 0 22px;
+  font-size: 2.8rem;
+  margin: 8px 0 18px;
   color: var(--accent-light);
 }
 
@@ -313,40 +330,95 @@ button:active {
 
 @media (max-width: 460px) {
   body {
-    padding: 14px;
-    align-items: stretch;
-  }
-
-  .app {
-    display: flex;
-    align-items: center;
+    padding: 8px;
   }
 
   .game-card {
-    padding: 20px;
-    border-radius: 28px;
+    padding: 14px;
+    border-radius: 24px;
   }
 
   .game-header {
-    flex-direction: column;
+    margin-bottom: 12px;
   }
 
   .score-box {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    min-width: 68px;
+    padding: 8px;
   }
 
-  .score-box span {
-    margin-bottom: 0;
+  h1 {
+    font-size: 1.45rem;
   }
 
-  .input-group {
-    flex-direction: column;
+  .word-area {
+    padding: 12px;
   }
 
+  .hint {
+    font-size: 0.82rem;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+
+  .scrambled-word {
+    min-height: 52px;
+    font-size: 1.45rem;
+  }
+
+  input,
   button {
-    width: 100%;
+    height: 44px;
+  }
+
+  .secondary-button {
+    height: 40px;
+  }
+}
+
+@media (max-height: 690px) {
+  .game-card {
+    padding: 12px;
+  }
+
+  .game-header {
+    margin-bottom: 10px;
+  }
+
+  .timer-area,
+  .word-area {
+    margin-bottom: 10px;
+  }
+
+  .word-area {
+    padding: 10px;
+  }
+
+  .hint {
+    font-size: 0.78rem;
+    margin-bottom: 8px;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+
+  .scrambled-word {
+    min-height: 46px;
+    padding: 8px;
+    font-size: 1.25rem;
+  }
+
+  input,
+  button {
+    height: 40px;
+  }
+
+  .secondary-button {
+    height: 38px;
+    margin-top: 8px;
+  }
+
+  .feedback {
+    margin-top: 6px;
+    font-size: 0.78rem;
   }
 }
